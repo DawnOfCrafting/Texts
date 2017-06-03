@@ -161,23 +161,23 @@
 //"ItemExplanation" = "ItemExplanation";
 //"Item" = "Item";
 //"Item2" = "Item2";
-"Banana" = "Banana";
-"Orange" = "Orange";
-"Coconut" = "Coconut";
-"Stone" = "Stone";
-"Peanut" = "Peanut";
-"Blue Berry" = "Blue Berry";
-"Red Berry" = "Red Berry";
-"Stick" = "Stick";
-"Vine" = "Vine";
-"Walnut" = "Walnut";
-"Chestnut" = "Chestnut";
-"Lettuce" = "Lettuce";
-"Tomato" = "Tomato";
-"Carrot" = "Carrot";
+"Banana" = "Banana"; "Basic food." = "Basic food."; //Will change 'basic food' depending on funny/serious desc. wanted. Placeholders for now, so everything has a description
+"Orange" = "Orange"; "Basic food." = "Basic food.";
+"Coconut" = "Coconut"; "Basic food and crafting material." = "Basic food and crafting material.";
+"Stone" = "Stone"; "Basic tool." = "Basic tool.";
+"Peanut" = "Peanut"; "Basic food." = "Basic food.";
+"Blue Berry" = "Blue Berry"; "Common berry." = "Common berry.";
+"Red Berry" = "Red Berry";"Common berry." = "Common berry.";
+"Stick" = "Stick"; "Basic crafting material." = "Basic crafting material.";
+"Vine" = "Vine"; "Crafting material, helps hold things together." = "Crafting material, helps hold things together.";
+"Walnut" = "Walnut"; "Basic food. Needs some preparation." = "Basic food. Needs some preparation.";
+"Chestnut" = "Chestnut"; "Basic food. Needs some preparation." = "Basic food. Needs some preparation.";
+"Lettuce" = "Lettuce"; 
+"Tomato" = "Tomato"; "Is it a fruit or vegetable?" = "Is it a fruit or vegetable?";
+"Carrot" = "Carrot"; "What's up Doc?" = "What's up Doc?";
 "Eggplant" = "Eggplant";
-"Apple" = "Apple";
-"Potato" = "Potato";
+"Apple" = "Apple"; "A nice juicy apple." = "A nice juicy apple.";
+"Potato" = "Potato"; "Grows in the ground." = "Grows in the ground.";
 "Mushroom" = "Mushroom";
 "Egg" = "Egg";
 "Honey" = "Honey";
@@ -185,26 +185,26 @@
 //==========================================================================================================
 //Residue
 "Coconut Shell" = "Coconut Shell";
-"Turd" = "Turd";
+"Turd" = "Turd"; "Gross!" = "Gross!";
 "Goop" = "Goop"; "Your failed attempt at crafting food." = "Your failed attempt at crafting food.";
 
 //==========================================================================================================
 //FishableItems
-"Sardine" = "Sardine";
-"Mackerel" = "Mackerel";
-"Tuna" = "Tuna";
-"Trout" = "Trout";
-"Clown Fish" = "Clown Fish";
-"Moorish Idol" = "Moorish Idol";
-"Lobster" = "Lobster";
-"Carp" = "Carp";
-"Red Salmon" = "Red Salmon";
-"Tiger Fish" = "Tiger Fish";
-"Squid" = "Squid";
-"Octopus" = "Octopus";
-"Walrus" = "Walrus";
-"Shark" = "Shark";
-"Whale" = "Whale";
+"Sardine" = "Sardine"; "Starter fish, does not require bait to catch." = "Starter fish, does not require bait to catch.";
+"Mackerel" = "Mackerel"; "Starter fish, does not require bait to catch." = "Starter fish, does not require bait to catch.";
+"Tuna" = "Tuna"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Trout" = "Trout"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Clown Fish" = "Clown Fish"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Moorish Idol" = "Moorish Idol"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Lobster" = "Lobster"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Carp" = "Carp"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Red Salmon" = "Red Salmon"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Tiger Fish" = "Tiger Fish"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Squid" = "Squid"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Octopus" = "Octopus"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
+"Walrus" = "Walrus"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked."; //haven't fished these yet, so im assuming
+"Shark" = "Shark"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";//haven't fished these yet, so im assuming
+"Whale" = "Whale"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";//haven't fished these yet, so im assuming
 //==========================================================================================================
 //HuntableItems
 "Worm" = "Worm";
