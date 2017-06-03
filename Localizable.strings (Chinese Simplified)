@@ -1,0 +1,2577 @@
+/* 
+  Localizable.strings
+  Crafter
+
+  Created by Goktug Yilmaz on 25/5/17.
+  Copyright © 2017 Goktug Yilmaz. All rights reserved.
+*/
+
+/*
+ //==========================================================================================================
+ NOTES
+ //==========================================================================================================
+ %@ = Variable. 
+ Example: "Awesome %@" => "Awesome Bill", "Awesome Jack"
+ 
+ %d = Int
+ Example: 1
+ 
+ %f = Float
+ Example: 1.3333333
+ 
+ %ld = Double
+ Example: 1.333333333333333
+ 
+ */
+
+//==========================================================================================================
+//General Translations
+"Player" = "Player";
+"Ok" = "Ok";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Later" = "Later"; //Usually in choices like, Ok or Later.
+"Done" = "Done";
+"Enter" = "Enter"; //Like enter a text inside a field
+"Okay" = "Okay";
+
+//==========================================================================================================
+//Configs - Memory Bug
+"Your app is using a lot of memory! The app might crash soon. If there is an action you're doing a lot that might cause this, let us know and restart the app asap!" = "Your app is using a lot of memory! The app might crash soon. If there is an action you're doing a lot that might cause this, let us know and restart the app asap!";
+"Your app is using a lot of memory. This might possibly cause a crash in the future. If there is an action you're doing a lot that might cause this, let us know. Restarting the app might fix the problem." = "Your app is using a lot of memory. This might possibly cause a crash in the future. If there is an action you're doing a lot that might cause this, let us know. Restarting the app might fix the problem.";
+"Mail devs" = "Mail devs";
+"Maybe later" = "Maybe later";
+
+//Configs - New Update
+"There is a new update, check it out." = "There is a new update, check it out.";
+
+//==========================================================================================================
+//Patchlog
+
+//==========================================================================================================
+//AppDelegate - Save Lost
+"Hello! We've made a lot of changes to the save game file and unfortunately your game save has been lost in transition. A side quest will come after you start the game and bring you some delicious food so you can easily get back to where you were." = "Hello! We've made a lot of changes to the save game file and unfortunately your game save has been lost in transition. A side quest will come after you start the game and bring you some delicious food so you can easily get back to where you were.";
+
+//==========================================================================================================
+//GameProgress
+"Auto saving to iCloud" = "Auto saving to iCloud";
+
+//GameProgress - storageIsFull
+"%@, your inventory is filled up. You can drag away and throw items you don't need.\n\nOr... there is also another way to store them." = "%@, your inventory is filled up. You can drag away and throw items you don't need.\n\nOr... there is also another way to store them.";
+"There is a masterfully crafted container you could buy that has 16 slots! A true pinnacle of craftmanship, I'm telling you!" = "There is a masterfully crafted container you could buy that has 16 slots! A true pinnacle of craftmanship, I'm telling you!";
+"Get that container!" = "Get that container!";
+
+//==========================================================================================================
+//Utilities
+"You are not connected to the internet at the moment." = "You are not connected to the internet at the moment.";
+
+//==========================================================================================================
+//SupportEngine - Social Networks
+"Like Dawn of Crafting Facebook Page to win 5 Cooked Kebabs (180 energy)." = "Like Dawn of Crafting Facebook Page to win 5 Cooked Kebabs (180 energy).";
+"Like Dawn of Crafting Facebook Page to earn 5 Cooked Kebabs? (180 energy)" = "Like Dawn of Crafting Facebook Page to earn 5 Cooked Kebabs? (180 energy)";
+"Follow Dawn of Crafting Twitter page to win 5 Cooked Kebabs (180 energy)." = "Follow Dawn of Crafting Twitter page to win 5 Cooked Kebabs (180 energy).";
+"Follow Dawn of Crafting Twitter Page to earn 5 Cooked Kebabs? (180 energy)" = "Follow Dawn of Crafting Twitter Page to earn 5 Cooked Kebabs? (180 energy)";
+"Subscribe to Dawn of Crafting subreddit to win 5 Cooked Kebabs (180 energy)." = "Subscribe to Dawn of Crafting subreddit to win 5 Cooked Kebabs (180 energy).";
+"Subscribe to Dawn of Crafting subreddit to earn 5 Cooked Kebabs? (180 energy)" = "Subscribe to Dawn of Crafting subreddit to earn 5 Cooked Kebabs? (180 energy)";
+"Follow Dawn of Crafting Youtube Page to win 5 Cooked Kebabs (180 energy)." = "Follow Dawn of Crafting Youtube Page to win 5 Cooked Kebabs (180 energy).";
+"Follow Dawn of Crafting Youtube Page to earn 5 Cooked Kebabs? (180 energy)" = "Follow Dawn of Crafting Youtube Page to earn 5 Cooked Kebabs? (180 energy)";
+"Thanks %@, you gain 5 Cooked Kebabs." = "Thanks %@, you gain 5 Cooked Kebabs.";
+
+//SupportEngine - Enter Email
+"Enter your email to win a Recipe Part Tablet." = "Enter your email to win a Recipe Part Tablet.";
+"You have already entered an email. If you wish to enter a second email you won't get another Recipe Part Tablet." = "You have already entered an email. If you wish to enter a second email you won't get another Recipe Part Tablet.";
+"Enter your email:" = "Enter your email:";
+"Thank you, Recipe Part Tablet is added to your inventory." = "Thank you, Recipe Part Tablet is added to your inventory.";
+"Email added." = "Email added.";
+"This is a false email. We know who you are and you could also enter a false email that looks legit. But do you think it's smart to give wrong email to people who could delete all your food?" = "This is a false email. We know who you are and you could also enter a false email that looks legit. But do you think it's smart to give wrong email to people who could delete all your food?";
+"Try Again" = "Try Again";
+
+//SupportEngine - Review
+"Give a review on the appstore to win a Recipe Part Tablet. (Unlocks a chosen recipe part)" = "Give a review on the appstore to win a Recipe Part Tablet. (Unlocks a chosen recipe part)";
+"Already completed review for this version. Check back next week for the new version." = "Already completed review for this version. Check back next week for the new version.";
+"Review the game on the appstore for a Recipe Part Tablet? (Unlocks a chosen recipe part)" = "Review the game on the appstore for a Recipe Part Tablet? (Unlocks a chosen recipe part)";
+
+"Did you give a review?" = "Did you give a review?";
+
+"Thanks %@, you gain a Recipe Part Tablet." = "Thanks %@, you gain a Recipe Part Tablet.";
+"You don't seem to have done it. I hope you will review it in the next version, until then I'm keeping the tablet." = "You don't seem to have done it. I hope you will review it in the next version, until then I'm keeping the tablet.";
+"No worries, you can always do it later and claim your tablet!" = "No worries, you can always do it later and claim your tablet!";
+
+//SupportEngine - Share
+"Share with a friend to get a recipe part tablet. (Unlocks a chosen recipe part)" = "Share with a friend to get a recipe part tablet. (Unlocks a chosen recipe part)";
+"Share Dawn of Crafting with a friend for a Recipe Part Tablet? (Unlocks a chosen recipe part)" = "Share Dawn of Crafting with a friend for a Recipe Part Tablet? (Unlocks a chosen recipe part)";
+"Hey, check out Dawn of Crafting. I've spent hours playing it. I'm sure you'll love it." = "Hey, check out Dawn of Crafting. I've spent hours playing it. I'm sure you'll love it.";
+"You can always share later." = "You can always share later.";
+"Did you share Dawn of Crafting with a friend?" = "Did you share Dawn of Crafting with a friend?";
+"No worries, you can always share it later!" = "No worries, you can always share it later!";
+
+//SupportEngine - Donation
+"Donate a primitive amount to earn 30 Cooked Kebabs? (1080 energy)" = "Donate a primitive amount to earn 30 Cooked Kebabs? (1080 energy)";
+"Donate a basic amount to earn a Recipe Part Tablet? (Unlocks a chosen recipe part)" = "Donate a basic amount to earn a Recipe Part Tablet? (Unlocks a chosen recipe part)";
+"Donate a small amount to earn a Large Container? (16 slots)" = "Donate a small amount to earn a Large Container? (16 slots)";
+"(Gives unimaginable bonuses)" = "(Gives unimaginable bonuses)";
+"(Unlocks new slots & gives unimaginable bonuses)" = "(Unlocks new slots & gives unimaginable bonuses)";
+"Donate a medium amount to earn a random Generation Item? %@" = "Donate a medium amount to earn a random Generation Item? %@";
+"There is not enough storage for the reward." = "There is not enough storage for the reward.";
+"Did you complete action?" = "Did you complete action?";
+"No worries, you can always do it later and claim your reward!" = "No worries, you can always do it later and claim your reward!";
+
+//==========================================================================================================
+//Sound
+"Nice Song! Pausing Game Music" = "Nice Song! Pausing Game Music";
+
+//==========================================================================================================
+//Payments
+"Thank You! Your Kebabs are added to your inventory." = "Thank You! Your Kebabs are added to your inventory.";
+"Thank You! Your Recipe Part Tablet added to your inventory." = "Thank You! Your Recipe Part Tablet added to your inventory.";
+"Thank You! Your Large Container is added to your inventory." = "Thank You! Your Large Container is added to your inventory.";
+"Thank You! Your generation item is added to your inventory." = "Thank You! Your generation item is added to your inventory.";
+"$0.99" = "$0.99";
+"$4.99" = "$4.99";
+"$9.99" = "$9.99";
+"$24.99" = "$24.99";
+//0.99 = 0.99;
+//4.99 = 4.99;
+//9.99 = 9.99;
+//24.99 = 24.99;
+"USD" = "USD";
+"Stop trying to hack the game and start crafting you piece of Erectus Turd! We have to build a civilization." = "Stop trying to hack the game and start crafting you piece of Erectus Turd! We have to build a civilization.";
+"Not enough room in your inventory. Throwing away some Goop." = "Not enough room in your inventory. Throwing away some Goop.";
+"You need more room in your inventory." = "You need more room in your inventory.";
+"Loading..." = "Loading...";
+"Purchase failed" = "Purchase failed";
+"Please check your Internet connection or try again later" = "Please check your Internet connection or try again later";
+"Unknown error. Please contact support" = "Unknown error. Please contact support";
+"Don't have a valid product identifier" = "Don't have a valid product identifier";
+"Product not found" = "Product not found";
+"Payments not enabled" = "Payments not enabled";
+"You are not allowed to make payments" = "You are not allowed to make payments";
+"This item was never purchased!" = "This item was never purchased!";
+"Receipt verification failed.\n\nIf you're trying to hack good luck bro.\n\nIf not please contact us." = "Receipt verification failed.\n\nIf you're trying to hack good luck bro.\n\nIf not please contact us.";
+
+//==========================================================================================================
+//Item
+"Item name not set!" = "Item name not set!";
+
+//==========================================================================================================
+//GatherableItems
+//Format: "Item" = "Item"; "ItemExplanation" = "ItemExplanation";
+//Format For Multiple:
+//"ItemExplanation" = "ItemExplanation";
+//"Item" = "Item";
+//"Item2" = "Item2";
+"Banana" = "Banana";
+"Orange" = "Orange";
+"Coconut" = "Coconut";
+"Stone" = "Stone";
+"Peanut" = "Peanut";
+"Blue Berry" = "Blue Berry";
+"Red Berry" = "Red Berry";
+"Stick" = "Stick";
+"Vine" = "Vine";
+"Walnut" = "Walnut";
+"Chestnut" = "Chestnut";
+"Lettuce" = "Lettuce";
+"Tomato" = "Tomato";
+"Carrot" = "Carrot";
+"Eggplant" = "Eggplant";
+"Apple" = "Apple";
+"Potato" = "Potato";
+"Mushroom" = "Mushroom";
+"Egg" = "Egg";
+"Honey" = "Honey";
+
+//==========================================================================================================
+//Residue
+"Coconut Shell" = "Coconut Shell";
+"Turd" = "Turd";
+"Goop" = "Goop"; "Your failed attempt at crafting food." = "Your failed attempt at crafting food.";
+
+//==========================================================================================================
+//FishableItems
+"Sardine" = "Sardine";
+"Mackerel" = "Mackerel";
+"Tuna" = "Tuna";
+"Trout" = "Trout";
+"Clown Fish" = "Clown Fish";
+"Moorish Idol" = "Moorish Idol";
+"Lobster" = "Lobster";
+"Carp" = "Carp";
+"Red Salmon" = "Red Salmon";
+"Tiger Fish" = "Tiger Fish";
+"Squid" = "Squid";
+"Octopus" = "Octopus";
+"Walrus" = "Walrus";
+"Shark" = "Shark";
+"Whale" = "Whale";
+//==========================================================================================================
+//HuntableItems
+"Worm" = "Worm";
+"Mouse" = "Mouse";
+"Turtle" = "Turtle";
+"Lizard" = "Lizard";
+"Rabbit" = "Rabbit";
+"Squirrel" = "Squirrel";
+"Sparrow" = "Sparrow";
+"Duck" = "Duck";
+"Turkey" = "Turkey";
+"Rattlesnake" = "Rattlesnake";
+"Fox" = "Fox";
+"Wild Boar" = "Wild Boar";
+"Wolf" = "Wolf";
+"Elephant Bird" = "Elephant Bird";
+"Bison" = "Bison";
+"Dire Wolf" = "Dire Wolf";
+"Bear" = "Bear";
+"Terror Bird" = "Terror Bird";
+"Giant Sloth" = "Giant Sloth";
+"Saber Tooth" = "Saber Tooth";
+"Mammoth" = "Mammoth";
+
+//==========================================================================================================
+//LumberjackableItems
+"Small Branch" = "Small Branch";
+"Small Trunk" = "Small Trunk";
+"Medium Branch" = "Medium Branch";
+"Medium Trunk" = "Medium Trunk";
+"Large Branch" = "Large Branch";
+"Large Trunk" = "Large Trunk";
+"Complete Tree" = "Complete Tree";
+"Tree Bark" = "Tree Bark";
+"Leaf" = "Leaf";
+"Root" = "Root";
+"Small Log" = "Small Log";
+"Log" = "Log";
+"Split Tree Bark" = "Split Tree Bark";
+
+//==========================================================================================================
+//MealPreparedItems
+"Peeled Banana" = "Peeled Banana";
+"Peeled Orange" = "Peeled Orange";
+"Peanut Kernel" = "Peanut Kernel";
+"Mixed Berries" = "Mixed Berries";
+"Opened Coconut" = "Opened Coconut";
+"Walnut Kernel" = "Walnut Kernel";
+"Chestnut Kernel" = "Chestnut Kernel";
+"Sliced Banana" = "Sliced Banana";
+"Sliced Orange" = "Sliced Orange";
+"Sliced Potato" = "Sliced Potato";
+"Raw Coconut" = "Raw Coconut";
+"Blue Berry Mash" = "Blue Berry Mash";
+"Red Berry Mash" = "Red Berry Mash";
+"Mixed Berry Mash" = "Mixed Berry Mash";
+"Mashed Potatoes" = "Mashed Potatoes";
+"Mashed Root" = "Mashed Root";
+"Banana Mash" = "Banana Mash";
+"Sliced Tomato" = "Sliced Tomato";
+"Cut Lettuce" = "Cut Lettuce";
+"Sliced Carrot" = "Sliced Carrot";
+"Sliced Eggplant" = "Sliced Eggplant";
+"Tomato Salad" = "Tomato Salad";
+"Carrot Salad" = "Carrot Salad";
+"Walnut Salad" = "Walnut Salad";
+"Sliced Apple" = "Sliced Apple";
+"Orange Juice" = "Orange Juice";
+"Sliced Mushroom" = "Sliced Mushroom";
+"Pot Full Of Water" = "Pot Full Of Water";
+"Bone Marrow" = "Bone Marrow";
+"Raw Kebab" = "Raw Kebab";
+
+//==========================================================================================================
+//CookedItems
+"Roasted Banana" = "Roasted Banana";
+"Roasted Peanut" = "Roasted Peanut";
+"Roasted Worm" = "Roasted Worm";
+"Roasted Carrot" = "Roasted Carrot";
+"Roasted Tomato" = "Roasted Tomato";
+"Roasted Chestnut Kernel" = "Roasted Chestnut Kernel";
+"Roasted Walnut Kernel" = "Roasted Walnut Kernel";
+"Roasted Eggplant" = "Roasted Eggplant";
+"Roasted Mushroom" = "Roasted Mushroom";
+"Roasted Potato" = "Roasted Potato";
+"Cooked Fish Meat" = "Cooked Fish Meat";
+"Cooked Reptile Meat" = "Cooked Reptile Meat";
+"Cooked White Meat" = "Cooked White Meat";
+"Cooked Red Meat" = "Cooked Red Meat";
+"Fish Soup" = "Fish Soup";
+"Reptile Soup" = "Reptile Soup";
+"Chicken Soup" = "Chicken Soup";
+"Meat Soup" = "Meat Soup";
+"Tea" = "Tea";
+"Charcoal" = "Charcoal";
+"Fried Egg" = "Fried Egg";
+"Meat Omelette" = "Meat Omelette";
+"Fish Omelette" = "Fish Omelette";
+"Cooked Kebab" = "Cooked Kebab";
+
+//==========================================================================================================
+//ToolCraftedItems
+"Sharp Stone" = "Sharp Stone";
+"Primitive Axe" = "Primitive Axe";
+"Primitive Knife" = "Primitive Knife";
+"Primitive Spear" = "Primitive Spear";
+"Primitive Hammer" = "Primitive Hammer";
+"Stone Axe Head" = "Stone Axe Head";
+"Stone Axe" = "Stone Axe";
+"Vine Rope" = "Vine Rope";
+"Bark Rope" = "Bark Rope";
+"Small Fire" = "Small Fire";
+"Camp Fire" = "Camp Fire"; "Decreasing heat to 0 will destroy the fire resulting in charcoal and stones." = "Decreasing heat to 0 will destroy the fire resulting in charcoal and stones."; //might optimize
+"Bonfire" = "Bonfire"; "Decreasing heat to 0 will destroy the fire resulting in charcoals and stones." = "Decreasing heat to 0 will destroy the fire resulting in charcoals and stones."; //might optimize
+"Kiln" = "Kiln"; "Decreasing heat to 0 will destroy the fire resulting in charcoals and bricks." = "Decreasing heat to 0 will destroy the fire resulting in charcoals and bricks."; //might optimize
+"Furnace" = "Furnace"; "Decreasing heat to 0 will destroy the fire resulting in charcoals, bricks and stones." = "Decreasing heat to 0 will destroy the fire resulting in charcoals, bricks and stones."; //might optimize
+"Bone Hook" = "Bone Hook";
+"Stacked Bone" = "Stacked Bone";
+"Primitive Fishing Rod" = "Primitive Fishing Rod";
+"Wooden Fishing Rod" = "Wooden Fishing Rod";
+"Basic Knife" = "Basic Knife";
+"Basic Hammer" = "Basic Hammer";
+"Sling" = "Sling"; "Can be filled with stones and used for hunting animals." = "Can be filled with stones and used for hunting animals.";
+"Bow" = "Bow";
+"Arrow" = "Arrow";
+"Quiver" = "Quiver";
+"Advanced Quiver" = "Advanced Quiver";
+"Advanced Bow" = "Advanced Bow";
+
+"Can be filled with arrows and used for hunting animals." = "Can be filled with arrows and used for hunting animals.";
+"Bow and Quiver" = "Bow and Quiver";
+"Advanced Bow and Quiver" = "Advanced Bow and Quiver";
+
+"Sharp Shiny Stone" = "Sharp Shiny Stone";
+"Advanced Hammer" = "Advanced Hammer";
+"Advanced Axe" = "Advanced Axe";
+"Epic Axe" = "Epic Axe";
+"Epic Hammer" = "Epic Hammer";
+"Sharp Bone" = "Sharp Bone";
+"Advanced Knife" = "Advanced Knife";
+"Epic Knife" = "Epic Knife";
+"Advanced Spear" = "Advanced Spear";
+"Epic Spear" = "Epic Spear";
+"Advanced Fishing Rod" = "Advanced Fishing Rod";
+"Epic Fishing Rod" = "Epic Fishing Rod";
+
+"The Claw dismantles the item you're using it on into it's base parts." = "The Claw dismantles the item you're using it on into it's base parts.";
+"Primitive Claw" = "Primitive Claw";
+"Basic Claw" = "Basic Claw";
+"Advanced Claw" = "Advanced Claw";
+"Epic Claw" = "Epic Claw";
+
+"Trowel Head" = "Trowel Head";
+"Basic Trowel" = "Basic Trowel";
+"Advanced Trowel" = "Advanced Trowel";
+"Epic Trowel" = "Epic Trowel";
+"Basic Torch" = "Basic Torch";
+"Brush" = "Brush";
+"Colored Brush" = "Colored Brush";
+
+"A finely crafted tool that is both Hammer, Axe and Knife at the same time!" = "A finely crafted tool that is both Hammer, Axe and Knife at the same time!";
+"Tactical Tool" = "Tactical Tool";
+"Tactical Shiny Tool" = "Tactical Shiny Tool";
+
+//==========================================================================================================
+//WoodWorkedItems
+"Sharp Stick" = "Sharp Stick";
+"Club" = "Club";
+"Bone Spiked Club" = "Bone Spiked Club";
+"Durable Spiked Club" = "Durable Spiked Club";
+"Sharp Club" = "Sharp Club";
+"Primitive Shovel" = "Primitive Shovel";
+"Basic Shovel" = "Basic Shovel";
+"Advanced Shovel" = "Advanced Shovel";
+"Epic Shovel" = "Epic Shovel";
+"Peeled Stick" = "Peeled Stick";
+"Inner Bark" = "Inner Bark";
+"Outer Bark" = "Outer Bark";
+"Tinder" = "Tinder";
+"Bark Strips" = "Bark Strips";
+"Brick Mould" = "Brick Mould";
+"Wooden Bin" = "Wooden Bin";
+"Wooden Table" = "Wooden Table";
+"Wooden Tablet" = "Wooden Tablet";
+"Tournette" = "Tournette";
+"Primitive Container" = "Primitive Container";
+"Basic Container" = "Basic Container";
+"Small Container" = "Small Container";
+"Medium Container" = "Medium Container";
+"Large Container" = "Large Container";
+
+//==========================================================================================================
+//TailoredItems
+"Leaf Skirt" = "Leaf Skirt";
+"Leaf Shirt" = "Leaf Shirt";
+"Bone Necklace" = "Bone Necklace";
+"Bone Chest" = "Bone Chest";
+"Bone Helmet" = "Bone Helmet";
+"Light Fur Shoes" = "Light Fur Shoes";
+"Light Fur Hat" = "Light Fur Hat";
+"Light Fur Legging" = "Light Fur Legging";
+"Light Fur Tunic" = "Light Fur Tunic";
+"Shiny Necklace" = "Shiny Necklace";
+"Scale Shoes" = "Scale Shoes";
+"Scale Hat" = "Scale Hat";
+"Scale Legging" = "Scale Legging";
+"Scale Tunic" = "Scale Tunic";
+"Medium Fur Shoes" = "Medium Fur Shoes";
+"Medium Fur Hat" = "Medium Fur Hat";
+"Medium Fur Legging" = "Medium Fur Legging";
+"Medium Fur Tunic" = "Medium Fur Tunic";
+"Thick Fur Shoes" = "Thick Fur Shoes";
+"Thick Fur Hat" = "Thick Fur Hat";
+"Thick Fur Legging" = "Thick Fur Legging";
+"Thick Fur Tunic" = "Thick Fur Tunic";
+"Leaf Bag" = "Leaf Bag";
+"Light Fur Bag" = "Light Fur Bag";
+"Scale Bag" = "Scale Bag";
+"Medium Fur Bag" = "Medium Fur Bag";
+"Thick Fur Bag" = "Thick Fur Bag";
+
+//==========================================================================================================
+//SkinnedItems
+"Fish Meat" = "Fish Meat";
+"White Meat" = "White Meat";
+"Reptile Meat" = "Reptile Meat";
+"Red Meat" = "Red Meat";
+"Bone" = "Bone";
+"Scale" = "Scale";
+"Feather" = "Feather";
+"Light Fur" = "Light Fur";
+"Medium Fur" = "Medium Fur";
+"Thick Fur" = "Thick Fur";
+
+//==========================================================================================================
+//PotteryItems
+"Mud" = "Mud";
+"Wet Mud Brick" = "Wet Mud Brick";
+"Mud Brick" = "Mud Brick";
+"Wet Primitive Pot" = "Wet Primitive Pot";
+"Wet Cooking Pot" = "Wet Cooking Pot";
+"Cooking Pot" = "Cooking Pot";
+"Wet Basic Pot" = "Wet Basic Pot";
+"Wet Pan" = "Wet Pan";
+"Pan" = "Pan";
+"Wet Advanced Pot" = "Wet Advanced Pot";
+"Wet Medium Pot" = "Wet Medium Pot";
+
+"Player & Minion automatically eats from pot when there is food inside." = "Player & Minion automatically eats from pot when there is food inside.";
+"Primitive Pot" = "Primitive Pot";
+"Basic Pot" = "Basic Pot";
+"Adv. Pot" = "Adv. Pot"; //This is short because the name didn't fit in while a new pot was in the inventory
+"Advanced Pot" = "Advanced Pot";
+"Medium Pot" = "Medium Pot";
+
+//==========================================================================================================
+//ConstructionItems
+"Twig Wall" = "Twig Wall";
+"Twig Pillar" = "Twig Pillar";
+"Twig Door" = "Twig Door";
+"Wooden Wall" = "Wooden Wall";
+"Wooden Pillar" = "Wooden Pillar";
+"Wooden Door" = "Wooden Door";
+"Brick Wall" = "Brick Wall";
+"Brick Pillar" = "Brick Pillar";
+
+"Hidden storage, can't be looted." = "Hidden storage, can't be looted.";
+"Items in hideouts can't be stolen by thieves." = "Items in hideouts can't be stolen by thieves.";
+"Small Hideout" = "Small Hideout";
+"Medium Hideout" = "Medium Hideout";
+"Large Hideout" = "Large Hideout";
+
+"Storage, can be looted." = "Storage, can be looted.";
+"Twig Warehouse" = "Twig Warehouse";
+"Wooden Warehouse" = "Wooden Warehouse";
+"Brick Warehouse" = "Brick Warehouse";
+
+"Fire automatically burns items in here when it has low durability." = "Fire automatically burns items in here when it has low durability.";
+"Feeds fire heat when it is low." = "Feeds fire heat when it is low.";
+"Twig Wood Shed" = "Twig Wood Shed";
+"Wooden Wood Shed" = "Wooden Wood Shed";
+"Brick Wood Shed" = "Brick Wood Shed";
+
+"Allows you to build houses nearby." = "Allows you to build houses nearby.";
+"Don't mix drinking water with toilet water." = "Don't mix drinking water with toilet water.";
+"Wooden Well" = "Wooden Well";
+"People live here." = "People live here.";
+"Twig House" = "Twig House";
+"Wooden House" = "Wooden House";
+"Brick House" = "Brick House";
+"Collects turds." = "Collects turds.";
+"Twig Toilet" = "Twig Toilet";
+"Wooden Toilet" = "Wooden Toilet";
+"Brick Toilet" = "Brick Toilet";
+
+"Allows you to hold a library of tablets so you can show Minion what to bring." = "Allows you to hold a library of tablets so you can show Minion what to bring.";
+"Make sure the archives don't get humid or burn." = "Make sure the archives don't get humid or burn.";
+"Archive" = "Archive";
+
+"You can trade items here." = "You can trade items here.";
+"Build it next to grass and water for more deals." = "Build it next to grass and water for more deals.";
+"Marketplace" = "Marketplace";
+
+"Looks good." = "Looks good.";
+"Lion Statue" = "Lion Statue";
+
+"You can reset the game by creating an offspring." = "You can reset the game by creating an offspring.";
+"Mating Chambers" = "Mating Chambers";
+
+//==========================================================================================================
+//PaintingItems
+"Gathering Tablet" = "Gathering Tablet";
+"Hunting Tablet" = "Hunting Tablet";
+"Lumberjack Tablet" = "Lumberjack Tablet";
+"Fishing Tablet" = "Fishing Tablet";
+"Gathering Items" = "Gathering Items";
+"Hunting Items" = "Hunting Items";
+"Lumberjack Items" = "Lumberjack Items";
+"Fishing Items" = "Fishing Items";
+
+//==========================================================================================================
+//SpecialItems
+"Hand" = "Hand";
+"Water Bowl" = "Water Bowl";
+"Dirt" = "Dirt";
+"Shiny Stone" = "Shiny Stone";
+"Recipe Tablet" = "Recipe Tablet"; "This item will reveal a random unopened recipe when used." = "This item will reveal a random unopened recipe when used.";
+"Recipe Part Tablet" = "Recipe Part Tablet"; "This item will reveal a recipe part. To use it enter recipe book and tap on a non opened recipe." = "This item will reveal a recipe part. To use it enter recipe book and tap on a non opened recipe.";
+"Neanderthal Technology Tablet" = "Neanderthal Technology Tablet"; "This item will reveal a hidden Neanderthal Recipe when used. If all Neanderthal recipes are found, it will work as a Recipe Part Tablet." = "This item will reveal a hidden Neanderthal Recipe when used. If all Neanderthal recipes are found, it will work as a Recipe Part Tablet.";
+"Erectus Technology Tablet" = "Erectus Technology Tablet"; "This item will reveal a hidden Erectus Recipe when used. If all Erectus recipes are found, it will work as a Recipe Part Tablet." = "This item will reveal a hidden Erectus Recipe when used. If all Erectus recipes are found, it will work as a Recipe Part Tablet.";
+"Alf sleeps here" = "Alf sleeps here"; //is this used?
+"Alfs House" = "Alfs House";
+"Minion sleeps here" = "Minion sleeps here";  //is this used?
+"Minions House" = "Minions House";
+"Recipe Book" = "Recipe Book";
+"Lightbulb" = "Lightbulb";
+
+//==========================================================================================================
+//GenerationItems
+"Can only be equipped by the character. Increases the chance of gaining skill points when failing to craft." = "Can only be equipped by the character. Increases the chance of gaining skill points when failing to craft.";
+"Crafters Apron 100%" = "Crafters Apron 100%";
+"Crafters Apron 200%" = "Crafters Apron 200%";
+"Crafters Apron 300%" = "Crafters Apron 300%";
+"Crafters Apron 400%" = "Crafters Apron 400%";
+"Crafters Apron 500%" = "Crafters Apron 500%";
+"Crafters Apron 600%" = "Crafters Apron 600%";
+
+"Can only be equipped by the character. Increases the amount gained every time you gain skill points from a failed craft." = "Can only be equipped by the character. Increases the amount gained every time you gain skill points from a failed craft.";
+"Crafters Book 0.1" = "Crafters Book 0.1";
+"Crafters Book 0.2" = "Crafters Book 0.2";
+"Crafters Book 0.3" = "Crafters Book 0.3";
+"Crafters Book 0.4" = "Crafters Book 0.4";
+"Crafters Book 0.5" = "Crafters Book 0.5";
+"Crafters Book 0.6" = "Crafters Book 0.6";
+
+"Can only be equipped by the character. Increases the skill level of all player skills. This change affects available recipes and success chance for crafting. The chance of gaining a skill point from failure is still calculated from original skill level." = "Can only be equipped by the character. Increases the skill level of all player skills. This change affects available recipes and success chance for crafting. The chance of gaining a skill point from failure is still calculated from original skill level.";
+"Crafters Glove +5" = "Crafters Glove +5";
+"Crafters Glove +10" = "Crafters Glove +10";
+"Crafters Glove +15" = "Crafters Glove +15";
+"Crafters Glove +20" = "Crafters Glove +20";
+"Crafters Glove +25" = "Crafters Glove +25";
+"Crafters Glove +30" = "Crafters Glove +30";
+"Crafters Glove +40" = "Crafters Glove +40";
+"Crafters Glove +50" = "Crafters Glove +50";
+
+"Can only be equipped by the character. Decreases the skill level of all player skills. This change affects available recipes and success chance for crafting. While it increases the chance of failure, the chance of gaining a skill point on fail is still calculated from original skill level." = "Can only be equipped by the character. Decreases the skill level of all player skills. This change affects available recipes and success chance for crafting. While it increases the chance of failure, the chance of gaining a skill point on fail is still calculated from original skill level.";
+"Crafters Glove -5" = "Crafters Glove -5";
+"Crafters Glove -10" = "Crafters Glove -10";
+"Crafters Glove -15" = "Crafters Glove -15";
+"Crafters Glove -20" = "Crafters Glove -20";
+"Crafters Glove -25" = "Crafters Glove -25";
+"Crafters Glove -30" = "Crafters Glove -30";
+"Crafters Glove -40" = "Crafters Glove -40";
+"Crafters Glove -50" = "Crafters Glove -50";
+
+//==========================================================================================================
+//TipTablets
+"Master Crafter" = "Master Crafter"; //Used like Master Crafter Esqarrouth
+
+"Stock Food" = "Stock Food";
+"Always stock up on food before starting a big task." = "Always stock up on food before starting a big task.";
+
+"Scarce Tools" = "Scarce Tools";
+"When tools are scarce, use them until they are about to break and then craft them into another tool." = "When tools are scarce, use them until they are about to break and then craft them into another tool.";
+
+"Recipe Tablets" = "Recipe Tablets";
+"Always try random recipes before using Recipe Part Tablets." = "Always try random recipes before using Recipe Part Tablets.";
+
+"Wiki" = "Wiki";
+"Check out the wiki if you get really desperate! dawnofcrafting.gamepedia.com." = "Check out the wiki if you get really desperate! dawnofcrafting.gamepedia.com.";
+
+"Reddit" = "Reddit";
+"Ask your game questions in reddit.com/r/DawnOfCrafting." = "Ask your game questions in reddit.com/r/DawnOfCrafting.";
+
+"Try" = "Try";
+"Try different things. There are at least 5 different ways to eat a Banana." = "Try different things. There are at least 5 different ways to eat a Banana.";
+
+"Poop" = "Poop";
+"Burn the poop!" = "Burn the poop!";
+
+"Save" = "Save";
+"The game saves everytime you close it, change apps or enter the main menu." = "The game saves everytime you close it, change apps or enter the main menu.";
+
+"Burn" = "Burn";
+"You can save time by burning non-burnable items with burnable items instead of throwing them away individually. Just be careful not to burn anything important!" = "You can save time by burning non-burnable items with burnable items instead of throwing them away individually. Just be careful not to burn anything important!";
+
+"Bait" = "Bait";
+"You don't have to farm for worms to bait your hook. Your harvest should be self sufficient..." = "You don't have to farm for worms to bait your hook. Your harvest should be self sufficient...";
+
+"Ideas" = "Ideas";
+"Recipe ideas come when you're working with a similar material. Example: If you want the recipe parts with sticks to be discovered, craft a lot of items that use sticks." = "Recipe ideas come when you're working with a similar material. Example: If you want the recipe parts with sticks to be discovered, craft a lot of items that use sticks.";
+
+"Hold Button" = "Hold Button";
+"Press and hold the craft button to craft multiple times." = "Press and hold the craft button to craft multiple times.";
+
+"Multi Craft" = "Multi Craft";
+"If it feels like things are taking too long to craft, try putting in enough to make two or more of the item at once." = "If it feels like things are taking too long to craft, try putting in enough to make two or more of the item at once.";
+
+"Move Stacks" = "Move Stacks";
+"Press and hold on an item when in a container to quickly transfer the whole stack at once." = "Press and hold on an item when in a container to quickly transfer the whole stack at once.";
+
+"Hold Item" = "Hold Item";
+"Long press an item to get information about it." = "Long press an item to get information about it.";
+
+"Spares" = "Spares";
+"Until you build an Archive, keep 'spares' of key materials so that you don't need to rely on luck to get them again through gathering/etc." = "Until you build an Archive, keep 'spares' of key materials so that you don't need to rely on luck to get them again through gathering/etc.";
+
+"Throw" = "Throw";
+"Throw away an item by dragging it over Alf's head." = "Throw away an item by dragging it over Alf's head.";
+
+"Drag Burn" = "Drag Burn";
+"You can drag items into your fire directly in your inventory to add them quickly." = "You can drag items into your fire directly in your inventory to add them quickly.";
+
+"Fire Durability" = "Fire Durability";
+"Don't let your fire durability get to zero. It's a pain." = "Don't let your fire durability get to zero. It's a pain.";
+
+"Side Quests" = "Side Quests";
+"Don't forget about side quests. Be prepared for the quest giver to return." = "Don't forget about side quests. Be prepared for the quest giver to return.";
+
+"Batches" = "Batches";
+"If the crafting percentage is 100%, craft in batches to save time!" = "If the crafting percentage is 100%, craft in batches to save time!";
+
+"Gather Bag" = "Gather Bag";
+"Send your minion on a gather mission with bags while you complete large crafting tasks." = "Send your minion on a gather mission with bags while you complete large crafting tasks.";
+
+"Stuck" = "Stuck";
+"Stuck on a missing recipe part? Keep crafting with different inputs." = "Stuck on a missing recipe part? Keep crafting with different inputs.";
+
+"Reveal" = "Reveal";
+"Keep crafting with different materials to reveal what other recipes they're used in." = "Keep crafting with different materials to reveal what other recipes they're used in.";
+
+"Auto Send" = "Auto Send";
+"If you have unlocked a recipe, you can click on the picture of the product from the recipe menu to automatically send all ingredients to the crafting slots." = "If you have unlocked a recipe, you can click on the picture of the product from the recipe menu to automatically send all ingredients to the crafting slots.";
+
+//==========================================================================================================
+//RecipeBook
+"Unlocked Neanderthal Recipe!" = "Unlocked Neanderthal Recipe!";
+"Unlocked Erectus Recipe!" = "Unlocked Erectus Recipe!";
+
+//==========================================================================================================
+//Storage
+"Storage Full" = "Storage Full";
+
+//==========================================================================================================
+//CraftingBox
+"There already is a tool" = "There already is a tool";
+"That's not a crafting tool!" = "That's not a crafting tool!";
+"That is not a tool!" = "That is not a tool!";
+"Can't craft with that tool!" = "Can't craft with that tool!";
+"Storage full." = "Storage full.";
+"Storage full!" = "Storage full!";
+"Burned %@ from shed" = "Burned %@ from shed";
+
+//==========================================================================================================
+//Village
+"%@'s Village" = "%@'s Village"; //Players's Village
+
+//==========================================================================================================
+//Marketplace
+"You have no room in your inventory for a trade." = "You have no room in your inventory for a trade.";
+"Pleasure doing business with you!" = "Pleasure doing business with you!";
+"Are you sure, you want to purchase %d %@ for %d %@?" = "Are you sure, you want to purchase %d %@ for %d %@?"; //Are you sure, you want to purchase 3 Banana for 5 Stone?
+"You don't have that many %@!" = "You don't have that many %@!"; //Singular item
+"You don't have that many %@s!" = "You don't have that many %@s!"; //Plural items
+//==========================================================================================================
+//GenerationSystem
+
+"Max Player Energy" = "Max Player Energy";
+"Increases max player energy." = "Increases max player energy.";
+
+"Max Minion Energy" = "Max Minion Energy";
+"Increases max Minion energy." = "Increases max Minion energy.";
+
+"Max Skill" = "Max Skill";
+"Increases max skill cap." = "Increases max skill cap.";
+
+"Keep Neanderthal Technologies" = "Keep Neanderthal Technologies";
+"Keeps all unlocked Neanderthal recipes. Needs to be purchased every generation." = "Keeps all unlocked Neanderthal recipes. Needs to be purchased every generation.";
+
+"Get 10 Epic Knife" = "Get 10 Epic Knife";
+"Get 10 Epic Knife for next generation." = "Get 10 Epic Knife for next generation.";
+
+"Get 15 Epic Spear" = "Get 15 Epic Spear";
+"Get 15 Epic Spear for next generation." = "Get 15 Epic Spear for next generation.";
+
+"Get 5 Epic Rod" = "Get 5 Epic Rod";
+"Get 5 Epic Fishing Rod for next generation." = "Get 5 Epic Fishing Rod for next generation.";
+
+"Get 10 Epic Hammer" = "Get 10 Epic Hammer";
+"Get 10 Epic Hammer for next generation." = "Get 10 Epic Hammer for next generation.";
+
+"Get 10 Epic Axe" = "Get 10 Epic Axe";
+"Get 10 Epic Axe for next generation." = "Get 10 Epic Axe for next generation.";
+
+//==========================================================================================================
+//Skill
+
+//Is skill text still being used?
+"\n\nIncreasing skills gets harder as your skill level goes up." = "\n\nIncreasing skills gets harder as your skill level goes up.";
+
+"Communication" = "Communication";
+"Communicate" = "Communicate";
+"Communication skill increases the more you interact with your minion.\n\nIt also helps to tell your minion what to gather.\n\nCommunication doesn't increase while Minion is on long trips alone." = "Communication skill increases the more you interact with your minion.\n\nIt also helps to tell your minion what to gather.\n\nCommunication doesn't increase while Minion is on long trips alone.";
+
+"Tool Crafting" = "Tool Crafting";
+"Craft Item" = "Craft Item";
+"Tool Crafting increases when you fail to craft tools." = "Tool Crafting increases when you fail to craft tools.";
+
+"Wood Working" = "Wood Working";
+"Craft Item" = "Craft Item";
+"Wood Working increases when you fail to craft wooden items." = "Wood Working increases when you fail to craft wooden items.";
+
+"Meal Preparing" = "Meal Preparing";
+"Prepare Meal" = "Prepare Meal";
+"Meal Preparing increases when you fail to craft food." = "Meal Preparing increases when you fail to craft food.";
+
+"Cooking" = "Cooking";
+"Cook" = "Cook";
+"Cooking increases when you fail to cook." = "Cooking increases when you fail to cook.";
+
+"Skinning" = "Skinning";
+"Skin" = "Skin";
+"Skinning increases when you fail to skin animals." = "Skinning increases when you fail to skin animals.";
+
+"Tailoring" = "Tailoring";
+"Tailor" = "Tailor";
+"Tailoring increases when you fail to craft wearables." = "Tailoring increases when you fail to craft wearables.";
+
+"Pottery" = "Pottery";
+"Potter" = "Potter";
+"Pottery increases when you fail to craft pottery items." = "Pottery increases when you fail to craft pottery items.";
+
+"Construction" = "Construction";
+"Constructor" = "Constructor";
+"Construction increases when you fail to craft buildings." = "Construction increases when you fail to craft buildings.";
+
+"Painting" = "Painting";
+"Painter" = "Painter";
+"Painting increases when you fail to paint." = "Painting increases when you fail to paint.";
+
+"Gathering" = "Gathering";
+"Gather Food" = "Gather Food";
+"Gathering is the foundation of human survival. Costs %@ energy." = "Gathering is the foundation of human survival. Costs %@ energy.";
+
+"Lumberjack" = "Lumberjack";
+"Collect Wood" = "Collect Wood";
+"Lumberjack enabled humans to gather wood and craft basic contructions. Costs %@ energy." = "Lumberjack enabled humans to gather wood and craft basic contructions. Costs %@ energy.";
+
+"Hunting" = "Hunting";
+"Hunt" = "Hunt";
+"You need enough power to hunt an animal. You lose durability from your armor or weapon depending on the animal's power. You get a durability bonus (%@) as your skill increases. Costs %@ energy." = "You need enough power to hunt an animal. You lose durability from your armor or weapon depending on the animal's power. You get a durability bonus (%@) as your skill increases. Costs %@ energy.";
+
+"Fishing" = "Fishing";
+"Fish" = "Fish";
+"Bigger fish need more bait. Costs %@ energy." = "Bigger fish need more bait. Costs %@ energy.";
+
+"Treasure Hunting" = "Treasure Hunting";
+"Hunt" = "Hunt";
+"This skill allows your minion to search for rare and valuable items. Costs %@ energy." = "This skill allows your minion to search for rare and valuable items. Costs %@ energy.";
+
+//==========================================================================================================
+//QuestUtilities
+
+"Old Man" = "Old Man";
+"Alf" = "Alf";
+"Player" = "Player";
+"Minion" = "Minion";
+"Developers" = "Developers";
+"God" = "God";
+"Wanderer" = "Wanderer";
+"Kula" = "Kula";
+"Merchant Seduran" = "Merchant Seduran";
+"Erectus" = "Erectus";
+"Eroca" = "Eroca";
+"Sapien Girl" = "Sapien Girl";
+"Explorer Marco" = "Explorer Marco";
+"Gambler Kasino" = "Gambler Kasino";
+"Thief Sonka" = "Thief Sonka";
+"Thief" = "Thief";
+"Neanderthal Girl" = "Neanderthal Girl";
+"Kulas Sister" = "Kulas Sister";
+"Lora" = "Lora";
+"Storyteller Jokar" = "Storyteller Jokar";
+"Catherines" = "Catherines";
+"Abena" = "Abena";
+"One Eyed Man" = "One Eyed Man";
+"Fiskeren" = "Fiskeren";
+"Old Man With Huge White Beard" = "Old Man With Huge White Beard";
+"Santa" = "Santa";
+"Red Hooded Girl" = "Red Hooded Girl";
+"Robin" = "Robin";
+"Stranger" = "Stranger";
+"Filos O'Fiero" = "Filos O'Fiero";
+"Master Crafter Psi" = "Master Crafter Psi";
+
+//==========================================================================================================
+//Quests1-10
+
+//General
+"Take" = "Take";
+"Give" = "Give";
+"Sure" = "Sure";
+
+//1. Eat - Cooked Meat
+"You seem better already." = "You seem better already.";
+"Increase your energy by eating the Cooked Meats." = "Increase your energy by eating the Cooked Meats.";
+"Here are some Cooked Meats." = "Here are some Cooked Meats.";
+"Increase your energy by eating these." = "Increase your energy by eating these.";
+"Eat all of them." = "Eat all of them.";
+"Drag the Meat to yourself to eat it." = "Drag the Meat to yourself to eat it.";
+
+//2. Basic Craft - Peel and Eat Banana
+"Peel and eat the Bananas" = "Peel and eat the Bananas";
+"I'll take the rest. " = "I'll take the rest. ";
+"I found you unconscious near a Homo Erectus camp." = "I found you unconscious near a Homo Erectus camp.";
+"You must have been attacked by the Erectus. I should teach you the basics of crafting so you can defend yourself." = "You must have been attacked by the Erectus. I should teach you the basics of crafting so you can defend yourself.";
+"Always craft your food before eating to get the most energy." = "Always craft your food before eating to get the most energy.";
+"Put 1 Banana into your crafting box & click on Craft." = "Put 1 Banana into your crafting box & click on Craft.";
+"Click on Craft." = "Click on Craft.";
+"Peel all of the Bananas." = "Peel all of the Bananas.";
+"You haven't eaten any Peeled Bananas. Drag the Peeled Banana to yourself to eat them!" = "You haven't eaten any Peeled Bananas. Drag the Peeled Banana to yourself to eat them!"; //Singular Banana
+"You haven't eaten any Peeled Bananas. Drag the Peeled Bananas to yourself to eat them!" = "You haven't eaten any Peeled Bananas. Drag the Peeled Bananas to yourself to eat them!"; //Plural Bananas
+"Take 4 Bananas." = "Take 4 Bananas.";
+"Peel these Bananas and eat them." = "Peel these Bananas and eat them.";
+
+//3. Skills & Meal Preparing - Orange Skill
+"Increase your Meal Preparing skill to %@" = "Increase your Meal Preparing skill to %@";
+"The higher your skill the more likely you are to successfully craft an item." = "The higher your skill the more likely you are to successfully craft an item.";
+"You can increase your skill by trying harder recipes." = "You can increase your skill by trying harder recipes.";
+"Craft Oranges to increase your Meal Preparing skill!" = "Craft Oranges to increase your Meal Preparing skill!";
+"Craft more oranges! You're getting there!" = "Craft more oranges! You're getting there!";
+"Take %@ %@." = "Take %@ %@."; //Take 5 Orange //Singular
+"Take %@ %@s." = "Take %@ %@s."; //Take 5 Oranges //Plural
+"First lesson: Skill is only gained when you fail to craft." = "First lesson: Skill is only gained when you fail to craft.";
+            
+//4. Tool Use - Walnut
+"Open 2 Walnuts" = "Open 2 Walnuts";
+"Well done! Crafting is all about using complex tools." = "Well done! Crafting is all about using complex tools.";
+"Take this Recipe Book. I made it for my son but I never had a chance to give it to him." = "Take this Recipe Book. I made it for my son but I never had a chance to give it to him.";
+"You can record your crafting ideas & recipes into your Recipe Book." = "You can record your crafting ideas & recipes into your Recipe Book.";
+"No! No! No! Put Stones into your hand, not your crafting box!" = "No! No! No! Put Stones into your hand, not your crafting box!";
+"Try equipping your hand with a Stone." = "Try equipping your hand with a Stone.";
+"You must only have 1 Walnut in your crafting box!" = "You must only have 1 Walnut in your crafting box!";
+"Put 1 Walnut in your crafting box." = "Put 1 Walnut in your crafting box.";
+"Find me when you have cracked open 2 Walnuts." = "Find me when you have cracked open 2 Walnuts.";
+"Second lesson: Complex crafting requires tools." = "Second lesson: Complex crafting requires tools.";
+
+"Take these: " = "Take these: "; //Take these: 3 Walnuts & 1 Stone
+"%@ Walnut" = "%@ Walnut"; //Singular
+"%@ Walnuts" = "%@ Walnuts"; //Plural
+" & " = " & ";
+"%@ Stone" = "%@ Stone"; //Singular
+"%@ Stones" = "%@ Stones"; //Plural
+
+//5. Tool Crafting - Sharp Stone
+"Craft a Sharp Stone" = "Craft a Sharp Stone";
+"Good work." = "Good work.";
+"Your energy is low. Eat some bananas." = "Your energy is low. Eat some bananas.";
+"Select your tool as a Stone like last time." = "Select your tool as a Stone like last time.";
+"You must only have 1 Stone in your crafting box!" = "You must only have 1 Stone in your crafting box!";
+"Put 1 Stone in your crafting box." = "Put 1 Stone in your crafting box.";
+"Find me when you have crafted 1 Sharp Stone." = "Find me when you have crafted 1 Sharp Stone.";
+"Take these: %@ Stone." = "Take these: %@ Stone.";
+"Take these: %@ Stone." = "Take these: %@ Stone.";
+"Lets craft a better tool." = "Lets craft a better tool.";
+
+//6. Combo Craft - Sliced Banana
+"Slice a Banana" = "Slice a Banana";
+"Ok thats acceptable, here you go." = "Ok thats acceptable, here you go.";
+"That's a lot. I'll get back to you on this one." = "That's a lot. I'll get back to you on this one.";
+"You're a greedy sapien.\nJust delete the game, go play something else." = "You're a greedy sapien.\nJust delete the game, go play something else.";
+"If you are still not sorry then we recommend something else for you." = "If you are still not sorry then we recommend something else for you.";
+"Not sorry" = "Not sorry";
+"Sorry" = "Sorry";
+"Sigh..      \nOkay, I accept your apology. Would you like to get back to crafting?" = "Sigh..      \nOkay, I accept your apology. Would you like to get back to crafting?";
+"I'll give you %@ bananas." = "I'll give you %@ bananas.";
+"Not enough?" = "Not enough?";
+"What if I give you some bananas?" = "What if I give you some bananas?";
+"How many?" = "How many?";
+"Alright! You will need materials in order to craft." = "Alright! You will need materials in order to craft.";
+"I can't provide you with materials forever, but you can use my friend here as a gatherer." = "I can't provide you with materials forever, but you can use my friend here as a gatherer.";
+"I call him 'Minion'." = "I call him 'Minion'.";
+"He is a simpleton, so he might not understand what you want." = "He is a simpleton, so he might not understand what you want.";
+"simpiilton!" = "simpiilton!"; //Its a stupider way of saying "simpleton" by Minion
+"You're getting good at this!" = "You're getting good at this!";
+"You know..      \nMy village was also attacked by the Erectus and it was destroyed." = "You know..      \nMy village was also attacked by the Erectus and it was destroyed.";
+"I want to rebuild the village and unite our species. Would you like to help me?" = "I want to rebuild the village and unite our species. Would you like to help me?";
+"You need to peel a Banana first." = "You need to peel a Banana first.";
+"Craft a Sharp Stone.\n\n If you don't remember how to, check your Recipe Book." = "Craft a Sharp Stone.\n\n If you don't remember how to, check your Recipe Book.";
+"You need to equip Sharp Stone to use it." = "You need to equip Sharp Stone to use it.";
+"Put the Peeled Banana in your crafting box." = "Put the Peeled Banana in your crafting box.";
+"Slice the banana!" = "Slice the banana!";
+"%@ Banana" = "%@ Banana";
+"%@ Bananas" = "%@ Bananas";
+"Third lesson: Combo crafting produces superior items." = "Third lesson: Combo crafting produces superior items.";
+
+//7. Gathering - Coconut
+"Gather 2 Coconuts" = "Gather 2 Coconuts";
+"Minion is not well trained. Hopefully you can train him better." = "Minion is not well trained. Hopefully you can train him better.";
+"I'll teach you a new recipe, but first you need to increase Minion's skill a little." = "I'll teach you a new recipe, but first you need to increase Minion's skill a little.";
+"Click Minion to send him." = "Click Minion to send him.";
+"You only need one more!" = "You only need one more!";
+"Minion is a little dumb. Keep sending him, he'll bring some eventually." = "Minion is a little dumb. Keep sending him, he'll bring some eventually.";
+"He sure is taking a long time." = "He sure is taking a long time.";
+"Try a little more. Minion will gather Coconuts very soon." = "Try a little more. Minion will gather Coconuts very soon.";
+"Send Minion to gather 2 Coconuts." = "Send Minion to gather 2 Coconuts.";
+"On it!" = "On it!";
+
+//8. Gathering skill increase - Tap Minion
+"Increase Minion's Gathering skill to %@" = "Increase Minion's Gathering skill to %@";
+"Great! He will bring more complex items as his skill increases." = "Great! He will bring more complex items as his skill increases.";
+"moplekss hihihu" = "moplekss hihihu"; //Its a stupider way of saying "Complex haha" by Minion
+"Time to break some Coconuts." = "Time to break some Coconuts.";
+"Click on Minion's skill box to check his skill." = "Click on Minion's skill box to check his skill.";
+"Tap Minion to increase his skills." = "Tap Minion to increase his skills.";
+"You're almost there, just a little more!" = "You're almost there, just a little more!";
+
+//9. Gathering & Crafting - Coconut
+"Craft 2 Opened Coconuts" = "Craft 2 Opened Coconuts";
+"Well done." = "Well done.";
+"Click the Minion to gather Coconuts." = "Click the Minion to gather Coconuts.";
+"Click the Minion to gather Stones." = "Click the Minion to gather Stones.";
+"You need to craft foods to increase your Meal Preparing skill to %@." = "You need to craft foods to increase your Meal Preparing skill to %@.";
+"Equip Stone as a tool to break the Coconuts." = "Equip Stone as a tool to break the Coconuts.";
+
+//10. Complex Crafting - Raw Coconut
+"Try making 2 Raw Coconuts" = "Try making 2 Raw Coconuts";
+"Well done! After you eat a Raw Coconut, you can use the remaining Coconut Shell as a bowl." = "Well done! After you eat a Raw Coconut, you can use the remaining Coconut Shell as a bowl.";
+"Click Minion to gather some Coconuts." = "Click Minion to gather some Coconuts.";
+"Click Minion to gather some Stones." = "Click Minion to gather some Stones.";
+"Use the Stone to open your Coconut." = "Use the Stone to open your Coconut.";
+"You'll need Sharp Stone to carve the Coconut." = "You'll need Sharp Stone to carve the Coconut.";
+"You need to craft foods to increase your Meal Preparing skill to %@." = "You need to craft foods to increase your Meal Preparing skill to %@."; // Skill to 21.2
+"Try equipping your hand with a Sharp Stone." = "Try equipping your hand with a Sharp Stone.";
+"Carve the Half Coconut with a Sharp Stone." = "Carve the Half Coconut with a Sharp Stone.";
+"I asked for %@ Raw Coconuts." = "I asked for %@ Raw Coconuts."; //6 Raw Coconuts
+
+//==========================================================================================================
+//Quests11-20.swift
+
+//11. Feed - Minion Raw Coconut
+"Feed Minion with Raw Coconuts." = "Feed Minion with Raw Coconuts.";
+"Now, we've got that out of the way, lets use the left over Coconut Shell as a bowl." = "Now, we've got that out of the way, lets use the left over Coconut Shell as a bowl.";
+"Crafting foods reduces the energy spent on digestion." = "Crafting foods reduces the energy spent on digestion.";
+"I said feed Minion, not yourself..." = "I said feed Minion, not yourself...";
+"To feed Minion, drag the food to Minion. Just like how you ate." = "To feed Minion, drag the food to Minion. Just like how you ate.";
+"Feed the Raw Coconuts." = "Feed the Raw Coconuts.";
+"I said feed yourself, not Minion..." = "I said feed yourself, not Minion...";
+"Eat the Raw Coconuts." = "Eat the Raw Coconuts.";
+"ungriiii!*Stomach growls*" = "ungriiii!*Stomach growls*"; //Its a stupider way of saying "Hungry! Stomach growls" by Minion
+"Minion looks hungry. You should feed him the Raw Coconuts." = "Minion looks hungry. You should feed him the Raw Coconuts.";
+"Eat the Raw Coconuts. We're going to use the Shells." = "Eat the Raw Coconuts. We're going to use the Shells.";
+
+//12. Multiple Craft & Recipe - Blue Berry Mash
+"Bring me a Blue Berry Mash." = "Bring me a Blue Berry Mash.";
+"mmmm\nTastes great." = "mmmm\nTastes great.";
+"Crafting an item sometimes gives you an idea of crafting another item." = "Crafting an item sometimes gives you an idea of crafting another item.";
+"Since you used Stone and Coconut Shell, parts of similar recipes opened up." = "Since you used Stone and Coconut Shell, parts of similar recipes opened up.";
+"Click the Recipe Book to see the recipe. It's the question mark/result box in your crafting box." = "Click the Recipe Book to see the recipe. It's the question mark/result box in your crafting box.";
+"Send Minion until he gathers 2 Blue Berries." = "Send Minion until he gathers 2 Blue Berries.";
+"You need to gather some Coconuts." = "You need to gather some Coconuts.";
+"You need to break the Coconut with a Stone." = "You need to break the Coconut with a Stone.";
+"You need to carve the Opened Coconut to get Raw Coconut." = "You need to carve the Opened Coconut to get Raw Coconut.";
+"To get a Coconut Shell you have to eat Raw Coconuts." = "To get a Coconut Shell you have to eat Raw Coconuts.";
+"You already have all the items needed. Check the Recipe Book and try crafting." = "You already have all the items needed. Check the Recipe Book and try crafting.";
+"Bring me a Blue Berry Mash. I am placing the recipe in your Recipe Book." = "Bring me a Blue Berry Mash. I am placing the recipe in your Recipe Book.";
+
+//13. Recipe Discovery - Red Berry Mash
+"Make yourself a Red Berry Mash." = "Make yourself a Red Berry Mash.";
+"Good job! This brings me back to the time our village was thriving with food! Want to hear about it?" = "Good job! This brings me back to the time our village was thriving with food! Want to hear about it?";
+"Anyways enough talk. Lets make this village thrive with food." = "Anyways enough talk. Lets make this village thrive with food.";
+"Fair enough. Anyways. I'm getting sick of these foods." = "Fair enough. Anyways. I'm getting sick of these foods.";
+"To get a Coconut Shell you have to eat Raw Coconuts." = "To get a Coconut Shell you have to eat Raw Coconuts.";
+"Click the Recipe Book to see your ideas about the recipe.\nHint: Its red." = "Click the Recipe Book to see your ideas about the recipe.\nHint: Its red.";
+
+//14. Hunting - Mouse
+"Bring me a Mouse." = "Bring me a Mouse.";
+"Nice! Lets make some real crafter tools." = "Nice! Lets make some real crafter tools.";
+"Craft a Sharp Stone.\n\n If you don't remember how to, check your Recipe Book." = "Craft a Sharp Stone.\n\n If you don't remember how to, check your Recipe Book.";
+"Equip Minion with a Sharp Stone." = "Equip Minion with a Sharp Stone.";
+"Send Minion, he'll catch one soon enough." = "Send Minion, he'll catch one soon enough.";
+"Equip Minion with a Sharp Stone, then send him hunting and bring me a Mouse." = "Equip Minion with a Sharp Stone, then send him hunting and bring me a Mouse.";
+
+//15. Primitive Axe
+"Make a Primitive Axe." = "Make a Primitive Axe.";
+"A good crafter needs good tools. You'll learn better ones as you progress." = "A good crafter needs good tools. You'll learn better ones as you progress.";
+"Send Minion to gather some Sticks." = "Send Minion to gather some Sticks.";
+"Send Minion to gather some Vines." = "Send Minion to gather some Vines.";
+"It's basically a Sharp Stone tied to a Stick. Check your Tool Crafting recipes in your Recipe Book." = "It's basically a Sharp Stone tied to a Stick. Check your Tool Crafting recipes in your Recipe Book.";
+"Try to make a Primitive Axe." = "Try to make a Primitive Axe.";
+
+//16. Lumberjack
+"Collect 8 Branches." = "Collect 8 Branches.";
+"Well done! A little tip: Store food before starting a big task." = "Well done! A little tip: Store food before starting a big task.";
+"Try equipping minion with Primitive Axe." = "Try equipping minion with Primitive Axe.";
+"Gather a few more Branches." = "Gather a few more Branches.";
+"Equip Minion with the Axe, then send him to gather some branches." = "Equip Minion with the Axe, then send him to gather some branches.";
+
+//17. Wood Working - Small Log
+"Craft a Small Log." = "Craft a Small Log.";
+"Nice! Now let's make some lumberwork, shall we?" = "Nice! Now let's make some lumberwork, shall we?";
+"First you need another Axe." = "First you need another Axe.";
+"Equip your Axe into your hand." = "Equip your Axe into your hand.";
+"Chop the Tree Branch." = "Chop the Tree Branch.";
+"Wood working is a tiring job." = "Wood working is a tiring job.";
+"Let's chop those Branches and make some Logs." = "Let's chop those Branches and make some Logs.";
+
+//18. Club
+"Make a Club" = "Make a Club";
+"Stronger weapons work better against stronger animals." = "Stronger weapons work better against stronger animals.";
+"By the way %@, do you want to hear why I became a Master Crafter?" = "By the way %@, do you want to hear why I became a Master Crafter?"; //By the way Jack, do you want to hear...
+"Enough talk. It's time to craft more complex tools" = "Enough talk. It's time to craft more complex tools";
+"Allright. Lets use the Club!" = "Allright. Lets use the Club!";
+"You need to gather some Wood. Equip Minion with an Axe." = "You need to gather some Wood. Equip Minion with an Axe.";
+"You should chop the Branch to get some Logs." = "You should chop the Branch to get some Logs.";
+"You should craft a Sharp Stone." = "You should craft a Sharp Stone.";
+"Equip your hand with a Sharp Stone, not Stone!" = "Equip your hand with a Sharp Stone, not Stone!";
+"Equip your hand with a Sharp Stone, not Axe!" = "Equip your hand with a Sharp Stone, not Axe!";
+"Equip your hand with a Sharp Stone and cut the Small Log." = "Equip your hand with a Sharp Stone and cut the Small Log.";
+"You can craft a Club from a Small Log by cutting it." = "You can craft a Club from a Small Log by cutting it.";
+"Weapons are not only for hunting but also defending. You should make yourself a Club." = "Weapons are not only for hunting but also defending. You should make yourself a Club.";
+
+//19. Hunting - Turtle
+"Bring me a Turtle." = "Bring me a Turtle.";
+"Nice hunt! Your inventory seems to be getting crowded." = "Nice hunt! Your inventory seems to be getting crowded.";
+"Equip Minion with a Club." = "Equip Minion with a Club.";
+"What are you waiting for, send Minion." = "What are you waiting for, send Minion.";
+"Equip Minion with the Club, then send him hunting for a Turtle." = "Equip Minion with the Club, then send him hunting for a Turtle.";
+
+//20. Trunk
+"Gather 5 Tree Trunks." = "Gather 5 Tree Trunks.";
+"Well done. Lumber is at the core of crafting." = "Well done. Lumber is at the core of crafting.";
+"You need an Axe to chop down trees." = "You need an Axe to chop down trees.";
+"Send your Minion on Lumberjack quests to gather Tree Trunks." = "Send your Minion on Lumberjack quests to gather Tree Trunks.";
+"Lets get ready to make containers. Gather some Tree Trunks." = "Lets get ready to make containers. Gather some Tree Trunks.";
+
+//==========================================================================================================
+//Quests21-30
+
+//21. Tree Bark
+"Make 5 Tree Barks" = "Make 5 Tree Barks";
+"As you see, you generate multiple items from a single Tree Trunk." = "As you see, you generate multiple items from a single Tree Trunk.";
+"You need an Axe to chop down trees." = "You need an Axe to chop down trees.";
+"Send minion on lumberjack quests to gather Tree Trunks." = "Send minion on lumberjack quests to gather Tree Trunks.";
+"Try chopping a Tree Trunk with an Axe." = "Try chopping a Tree Trunk with an Axe.";
+"We need 5 Tree Barks." = "We need 5 Tree Barks.";
+"Let's chop the Tree Trunks you gathered." = "Let's chop the Tree Trunks you gathered.";
+
+//22. Inner Bark
+"Craft 5 Inner Barks" = "Craft 5 Inner Barks";
+"Well done! We're going to be building a lot of items with Inner Barks." = "Well done! We're going to be building a lot of items with Inner Barks.";
+"You should organize your items better. Let's make some Containers." = "You should organize your items better. Let's make some Containers.";
+"Send Minion on Lumberjack quests to gather Tree Trunks." = "Send Minion on Lumberjack quests to gather Tree Trunks.";
+"Try using an Axe on a Tree Trunk." = "Try using an Axe on a Tree Trunk.";
+"You'll need a Sharp Stone to cut the Tree Bark." = "You'll need a Sharp Stone to cut the Tree Bark.";
+"Try cutting the Tree Bark to split it." = "Try cutting the Tree Bark to split it.";
+"Send Minion on Lumberjack quests to gather more Tree Trunks." = "Send Minion on Lumberjack quests to gather more Tree Trunks.";
+"We need 5 Inner Barks." = "We need 5 Inner Barks.";
+"To build a village you need to know how to process delicate materials. Try processing the Tree Bark." = "To build a village you need to know how to process delicate materials. Try processing the Tree Bark.";
+            
+//23. Bark Strips
+"Process Inner Bark into Strips" = "Process Inner Bark into Strips";
+"Well done. These strips are flexable & durable. They can be used in various places." = "Well done. These strips are flexable & durable. They can be used in various places.";
+"You need to build an Axe." = "You need to build an Axe.";
+"Send Minion on Lumberjack quests to gather Tree Trunks." = "Send Minion on Lumberjack quests to gather Tree Trunks.";
+"Treebarks can be processed by an Axe from Tree Trunks." = "Treebarks can be processed by an Axe from Tree Trunks.";
+"Inner Bark can be made by cutting Tree Barks with a Sharp Stone." = "Inner Bark can be made by cutting Tree Barks with a Sharp Stone.";
+"Bark Strips can be crafted from Inner Barks." = "Bark Strips can be crafted from Inner Barks.";
+"We are going to need more Bark Strips, craft %@ of them. Check the materials in your Recipe Book if you forgot." = "We are going to need more Bark Strips, craft %@ of them. Check the materials in your Recipe Book if you forgot.";
+"To make containers, we need to turn the Inner Bark into Bark Strips.." = "To make containers, we need to turn the Inner Bark into Bark Strips..";
+
+//24. Primitive Container
+"Craft a Primitive Container" = "Craft a Primitive Container";
+"Good work. As your skills get better, you'll be able to craft better ones." = "Good work. As your skills get better, you'll be able to craft better ones.";
+"Right now you need better tools." = "Right now you need better tools.";
+"You need to build an Axe." = "You need to build an Axe.";
+"Send Minion on Lumberjack quests to gather Tree Trunks." = "Send Minion on Lumberjack quests to gather Tree Trunks.";
+"Treebarks can be processed by an Axe from Tree Trunks." = "Treebarks can be processed by an Axe from Tree Trunks.";
+"Inner Bark can be made by cutting Treebarks with a Sharp Stone." = "Inner Bark can be made by cutting Treebarks with a Sharp Stone.";
+"Bark Strips can be made by processing Inner Barks." = "Bark Strips can be made by processing Inner Barks.";
+"We are going to need more Bark Strips. Craft 5 of them." = "We are going to need more Bark Strips. Craft 5 of them.";
+"Craft other Wood Working items to increase your skill, check your skills or Recipe Book to find out what to craft." = "Craft other Wood Working items to increase your skill, check your skills or Recipe Book to find out what to craft.";
+"Check out your recipes to see how to craft it." = "Check out your recipes to see how to craft it.";
+"Craft a Primitive Container out of Bark Strips." = "Craft a Primitive Container out of Bark Strips.";
+    
+//25. Advanced Tools - Primitive Hammer
+"Craft a Primitive Hammer" = "Craft a Primitive Hammer";
+"You can use this hammer just like a Stone! But there are some items that can only be crafted with advanced tools." = "You can use this hammer just like a Stone! But there are some items that can only be crafted with advanced tools.";
+"I'll show you how to make a knife too." = "I'll show you how to make a knife too.";
+"You need some Vines to craft this item." = "You need some Vines to craft this item.";
+"You need some Sticks to craft this item." = "You need some Sticks to craft this item.";
+"You need some Stones to craft this item." = "You need some Stones to craft this item.";
+"It's just a Stone with a Stick tied to it." = "It's just a Stone with a Stick tied to it.";
+"Craft a Primitive Hammer." = "Craft a Primitive Hammer.";
+
+//26. Advanced Tools - Primitive Knife
+"Craft a Primitive Knife" = "Craft a Primitive Knife";
+"This brings me back to the days when I first encountered an Erectus. Want to hear about it?" = "This brings me back to the days when I first encountered an Erectus. Want to hear about it?";
+"Anyways, you should start making some advanced tools, but first you'll need a better material to tie them together." = "Anyways, you should start making some advanced tools, but first you'll need a better material to tie them together.";
+"You should start making some advanced tools, but first you'll need a better material to tie them together." = "You should start making some advanced tools, but first you'll need a better material to tie them together.";
+"You need some Sticks to craft this item." = "You need some Sticks to craft this item.";
+"You need some Sharp Stones to craft this item." = "You need some Sharp Stones to craft this item.";
+"You might need something to hammer it down." = "You might need something to hammer it down.";
+"Use a Stone or a Hammer as a tool." = "Use a Stone or a Hammer as a tool.";
+"It's just a Sharp Stone with a Stick." = "It's just a Sharp Stone with a Stick.";
+"Craft a Primitive Knife with a Sharp Stone." = "Craft a Primitive Knife with a Sharp Stone.";
+
+//27. Vine Rope
+"Craft 5 Vine Ropes" = "Craft 5 Vine Ropes";
+"Well done." = "Well done.";
+"You're going to need some Vines. Either gather them or chop from Tree Branches." = "You're going to need some Vines. Either gather them or chop from Tree Branches.";
+"Well, just tie them together." = "Well, just tie them together.";
+"You're almost done, just a little bit more." = "You're almost done, just a little bit more.";
+"Craft Vine Ropes with Vines." = "Craft Vine Ropes with Vines.";
+
+//28. Primitive Spear
+"Craft a Spear" = "Craft a Spear";
+"Well done. Better weapons allow you to hunt bigger animals." = "Well done. Better weapons allow you to hunt bigger animals.";
+"Want to hear more about why its hard to come across Minion's nowadays?" = "Want to hear more about why its hard to come across Minion's nowadays?";
+"Lets move on." = "Lets move on.";
+"Ok, lets move on." = "Ok, lets move on.";
+"Check your Tool Crafting skill and try to the craft recommended items to increase your skill." = "Check your Tool Crafting skill and try to the craft recommended items to increase your skill.";
+"You need Sharp Stones for the head." = "You need Sharp Stones for the head.";
+"You need a Stick." = "You need a Stick.";
+"You need to craft a Vine Rope." = "You need to craft a Vine Rope.";
+"You have all the ingredients. Put them together. Check your recipe book if you need help." = "You have all the ingredients. Put them together. Check your recipe book if you need help.";
+"Let's use our new Rope for a better weapon. Craft a Spear." = "Let's use our new Rope for a better weapon. Craft a Spear.";
+
+//29. Skinning - Bone
+"Bring 5 Bones" = "Bring 5 Bones";
+"Thank you. By the way, those Meats and Vegetables would give a lot more energy if you cooked them." = "Thank you. By the way, those Meats and Vegetables would give a lot more energy if you cooked them.";
+"You need to hunt some animals." = "You need to hunt some animals.";
+"Try skinning the animals you've gathered with a knife." = "Try skinning the animals you've gathered with a knife.";
+"You need 20 hunting skill to hunt animals with Bones." = "You need 20 hunting skill to hunt animals with Bones.";
+"You need to hunt Rabbits for Bones. Use a Spear." = "You need to hunt Rabbits for Bones. Use a Spear.";
+"You need a Primitive Knife to skin boned animals." = "You need a Primitive Knife to skin boned animals.";
+"You should skin the animals you've captured, use a Primitive Knife." = "You should skin the animals you've captured, use a Primitive Knife.";
+"You don't have enough Bones." = "You don't have enough Bones.";
+"For now I need some Bones. Would you mind gathering some for me?" = "For now I need some Bones. Would you mind gathering some for me?";
+
+//30. Fire
+"Make a Campfire" = "Make a Campfire";
+"Great job discovering the fire. You've come farther than 99% of the species." = "Great job discovering the fire. You've come farther than 99% of the species.";
+"Campfire opens up endless crafting possibilities." = "Campfire opens up endless crafting possibilities.";
+"Beware if your fire runs out it will destroy the tool. Add more wood to grow your fire." = "Beware if your fire runs out it will destroy the tool. Add more wood to grow your fire.";
+"Now let's get to cooking stuff." = "Now let's get to cooking stuff.";
+"You need Sticks to get the initial flames going." = "You need Sticks to get the initial flames going.";
+"You need Bark Strips to make the initial flames going." = "You need Bark Strips to make the initial flames going.";
+"Use the Stick with Bark Strips to make the initial flames." = "Use the Stick with Bark Strips to make the initial flames.";
+"You need some Sticks and Stones to make a Campfire." = "You need some Sticks and Stones to make a Campfire.";
+"You need more Sticks for a Campfire." = "You need more Sticks for a Campfire.";
+"You need more Stones for a Campfire." = "You need more Stones for a Campfire.";
+"Use Small Fire as a lighter. Like a tool." = "Use Small Fire as a lighter. Like a tool.";
+"To figure out the recipe for a Campfire, craft items that use the materials you need." = "To figure out the recipe for a Campfire, craft items that use the materials you need.";
+"Craft a Small Fire with a Stick. Then craft a controlled Campfire with stones." = "Craft a Small Fire with a Stick. Then craft a controlled Campfire with stones.";
+
+//==========================================================================================================
+//Quests31-40.swift
+
+//31. Cooking - Skill - Roasted Banana
+"Roast 5 Bananas" = "Roast 5 Bananas";
+"Well done." = "Well done.";
+"You're going to need a lot of fire. Maybe try adding fuel to the fire?" = "You're going to need a lot of fire. Maybe try adding fuel to the fire?";
+"You need to use fire as a tool." = "You need to use fire as a tool.";
+"Well, you need to gather some Bananas." = "Well, you need to gather some Bananas.";
+"Just peel and roast the Bananas." = "Just peel and roast the Bananas.";
+"Roasted Bananas are delicious, you should try some." = "Roasted Bananas are delicious, you should try some.";
+
+//32. Communication - Skill
+"Increase Minions communication skill to %@." = "Increase Minions communication skill to %@."; //skill to 23.2
+"Well done! The more its communication skill increases the more items you will be able to tell it." = "Well done! The more its communication skill increases the more items you will be able to tell it.";
+"Feed Minion some cooked food." = "Feed Minion some cooked food.";
+"Communication increases when you communicate with it." = "Communication increases when you communicate with it.";
+
+//33. Targeted Gathering
+"Bring me %@ Roasted Peanuts" = "Bring me %@ Roasted Peanuts"; // 5 Roasted Peanuts
+"Thank you! These foods will keep my old body fed for a long time." = "Thank you! These foods will keep my old body fed for a long time.";
+"Click on Minion's tool box to open its bag." = "Click on Minion's tool box to open its bag.";
+"You should put Peanuts in Minion's Gather Type so it can gather that item." = "You should put Peanuts in Minion's Gather Type so it can gather that item.";
+"Roast them please." = "Roast them please.";
+"I need %@ of them." = "I need %@ of them."; // I need 3 of them.
+"Since Minion can gather any item fetch some Peanuts and cook them for me." = "Since Minion can gather any item fetch some Peanuts and cook them for me.";
+
+//34. Tailoring - Leaf Skirt
+"Make a Leaf Skirt" = "Make a Leaf Skirt";
+"Well done! Minions also love shiny things around their neck." = "Well done! Minions also love shiny things around their neck.";
+"Nicely done, try equipping Minion with the Leaf Skirt." = "Nicely done, try equipping Minion with the Leaf Skirt.";
+"Minion's also love shiny things around their neck." = "Minion's also love shiny things around their neck.";
+"You should first gather medium & large Branches for leaves. Send Minion on Lumberjack quests." = "You should first gather medium & large Branches for leaves. Send Minion on Lumberjack quests.";
+"You can get Leaves if you chop up a medium or large Branch." = "You can get Leaves if you chop up a medium or large Branch.";
+"You need Vine Ropes to make a Leaf Skirt." = "You need Vine Ropes to make a Leaf Skirt.";
+"You know the recipe." = "You know the recipe.";
+"Brrrarrrgg" = "Brrrarrrgg"; //Its a stupider way of saying "brrr" by Minion
+"You should make Minion some clothes." = "You should make Minion some clothes.";
+
+//35. Tailoring - Bone
+"Make a Bone Necklace" = "Make a Bone Necklace";
+"See how happy it became." = "See how happy it became.";
+"Equip Minion with your necklace." = "Equip Minion with your necklace.";
+"Get some Vines and make a Vine Rope." = "Get some Vines and make a Vine Rope.";
+"You'll need a Vine Rope for Bone Necklace." = "You'll need a Vine Rope for Bone Necklace.";
+"You'll need Bones, go hunting and skin the animals." = "You'll need Bones, go hunting and skin the animals.";
+"You need more Bones to craft a necklace." = "You need more Bones to craft a necklace.";
+"You got all the ingredients, craft it!" = "You got all the ingredients, craft it!";
+
+//36. Weapon - Sling
+"Craft a Sling and fill it with Stones." = "Craft a Sling and fill it with Stones.";
+"Great job. Slings work wonders here in the Land of Stone. You can gather unlimited ammunition and never run out of ammo." = "Great job. Slings work wonders here in the Land of Stone. You can gather unlimited ammunition and never run out of ammo.";
+"Whats Land of Stone?" = "Whats Land of Stone?";
+"Lets move on" = "Lets move on";
+"Lets get back to crafting. Let me teach you how to mold dirt into usable items." = "Lets get back to crafting. Let me teach you how to mold dirt into usable items.";
+"Let me teach you how to mold dirt into usable items." = "Let me teach you how to mold dirt into usable items.";
+"Hunt furry animals, then skin them to get Light Fur." = "Hunt furry animals, then skin them to get Light Fur.";
+"You need Tree Trunk to craft Inner Bark. Send Minion on Lumberjack quests." = "You need Tree Trunk to craft Inner Bark. Send Minion on Lumberjack quests.";
+"Chop the Tree Trunks with an Axe to get Tree Bark." = "Chop the Tree Trunks with an Axe to get Tree Bark.";
+"You can craft Inner Bark by using Knife on the Tree Bark." = "You can craft Inner Bark by using Knife on the Tree Bark.";
+"You need more Inner Bark." = "You need more Inner Bark.";
+"Turn those Inner Bark into Strips with your hand." = "Turn those Inner Bark into Strips with your hand.";
+"You've got all the materials to craft it." = "You've got all the materials to craft it.";
+"Load your Sling by dragging Stones on top of it." = "Load your Sling by dragging Stones on top of it.";
+"Time to make your first ranged weapon. Craft a Sling." = "Time to make your first ranged weapon. Craft a Sling.";
+
+//37. Pottery - Mud
+"Craft 10 Mud" = "Craft 10 Mud";
+"Nice! Now let's use these." = "Nice! Now let's use these.";
+"Equip Minion with a Coconut Bowl so it can gather Water for you." = "Equip Minion with a Coconut Bowl so it can gather Water for you.";
+"Craft a Shovel by carving a large piece of Log." = "Craft a Shovel by carving a large piece of Log.";
+"Equip Minion with a Shovel so it can gather Dirt for you." = "Equip Minion with a Shovel so it can gather Dirt for you.";
+"You got all the ingredients. Try mixing Dirt and Water." = "You got all the ingredients. Try mixing Dirt and Water.";
+"You need more Mud." = "You need more Mud.";
+"But first make some mud by mixing Water and Dirt." = "But first make some mud by mixing Water and Dirt.";
+
+//38. Pottery - Wet Primitive Pot
+"Craft a Wet Primitive Pot" = "Craft a Wet Primitive Pot";
+"Glad you found it." = "Glad you found it.";
+"Experiment with the Mud. Check your Recipe Book." = "Experiment with the Mud. Check your Recipe Book.";
+"Shape the Mud into the form a Pot. I'm not giving you any hints this time." = "Shape the Mud into the form a Pot. I'm not giving you any hints this time.";
+"Well done. You can store foods in this Primitive Pot and automatically eat from it whenever your energy is low. Go on try it out." = "Well done. You can store foods in this Primitive Pot and automatically eat from it whenever your energy is low. Go on try it out.";
+
+//39. Pottery - Primitive Pot
+"Fire up Primitive Pot." = "Fire up Primitive Pot.";
+"Well done. You can store foods in this Primitive Pot and automatically eat from it whenever your energy is low. Go on try it out." = "Well done. You can store foods in this Primitive Pot and automatically eat from it whenever your energy is low. Go on try it out.";
+"Check your recipes and try to craft hard items to increase your Tool Crafting." = "Check your recipes and try to craft hard items to increase your Tool Crafting.";
+"Oh, that little fire won't do. You'll need to craft a Bonfire to make Pottery. Craft a lot of items to get ideas about it." = "Oh, that little fire won't do. You'll need to craft a Bonfire to make Pottery. Craft a lot of items to get ideas about it.";
+"Just put it inside the fire." = "Just put it inside the fire.";
+"A wet pot isn't very useful in this stage, you need to fire it to make it harden." = "A wet pot isn't very useful in this stage, you need to fire it to make it harden.";
+
+//40. Self Armor
+"Craft yourself a set with more than 8 power" = "Craft yourself a set with more than 8 power";
+"You're looking stronger already. We crafters don't have to fight too much. A good looking armor will scare away weak enemies." = "You're looking stronger already. We crafters don't have to fight too much. A good looking armor will scare away weak enemies.";
+"You need to hunt small mammals to get Light Fur." = "You need to hunt small mammals to get Light Fur.";
+"You need Vine Rope to craft clothes." = "You need Vine Rope to craft clothes.";
+"You have the ingredients, check tailoring recipes and craft yourself a set." = "You have the ingredients, check tailoring recipes and craft yourself a set.";
+"Equip your new armor in your bag." = "Equip your new armor in your bag.";
+"A Homo Erectus with power %@ attacks." = "A Homo Erectus with power %@ attacks."; // with power 7 attacks.
+"It uses a Club on Alf and knocks him out, then looks at you angrily." = "It uses a Club on Alf and knocks him out, then looks at you angrily.";
+"Wake Alf" = "Wake Alf";
+"You and Minion (with a combined power of %@ fight and beat the vile villian." = "You and Minion (with a combined power of %@ fight and beat the vile villian."; // power of 7 fight and beat
+"Whoa! That was close. We need to equip ourselves with better weapons and armor.." = "Whoa! That was close. We need to equip ourselves with better weapons and armor..";
+"Make yourself an armor with more than 8 power." = "Make yourself an armor with more than 8 power.";
+
+//==========================================================================================================
+//Quests41-50
+
+//41. Alf Armor
+"Craft a full set of Light Fur Armor" = "Craft a full set of Light Fur Armor";
+"Thanks. Don't worry, you don't have to 'equip' me. I can wear myself." = "Thanks. Don't worry, you don't have to 'equip' me. I can wear myself.";
+"You need to hunt small mammals to get Light Fur." = "You need to hunt small mammals to get Light Fur.";
+"You need Vine Rope to craft clothes." = "You need Vine Rope to craft clothes.";
+"You have the ingredients. Check Tailoring Recipes and craft yourself a set." = "You have the ingredients. Check Tailoring Recipes and craft yourself a set.";
+"Now make a full set of Light Fur Armor for me." = "Now make a full set of Light Fur Armor for me.";
+
+//42. Gather Bag
+"Craft and equip a Leaf Bag" = "Craft and equip a Leaf Bag";
+"Nice. Minion will now go out there until it fills up the new bag." = "Nice. Minion will now go out there until it fills up the new bag.";
+"You need to increase your tailoring skill to 15." = "You need to increase your tailoring skill to 15.";
+"To figure out the recipe for an item, craft items that use the material you need." = "To figure out the recipe for an item, craft items that use the material you need.";
+"Equip Leaf Bag on Minion." = "Equip Leaf Bag on Minion.";
+"Minion seems to be going too much back and forth too much to gather items. Lets make a bag for it to carry." = "Minion seems to be going too much back and forth too much to gather items. Lets make a bag for it to carry.";
+
+//43. Supply Bag
+"Equip Minion with a Supply and a Gather Bag. Put food in the Supply Bag." = "Equip Minion with a Supply and a Gather Bag. Put food in the Supply Bag.";
+"Great! Minion uses the food in its Supply Bag to keep it fed while out on long gathering missions." = "Great! Minion uses the food in its Supply Bag to keep it fed while out on long gathering missions.";
+"You can also put tools & armor in its supply bag and it will automatically replace the broken ones while on a trip." = "You can also put tools & armor in its supply bag and it will automatically replace the broken ones while on a trip.";
+"You need to equip your Minion with a Gather Bag." = "You need to equip your Minion with a Gather Bag.";
+"You need to equip your Minion with a Supply Bag." = "You need to equip your Minion with a Supply Bag.";
+"Put some food in Minion's Supply Bag so it can eat on the trip." = "Put some food in Minion's Supply Bag so it can eat on the trip.";
+"Send your Minion to collect items!" = "Send your Minion to collect items!";
+"It will help if Minion carried extra food and tools when going on longer missions." = "It will help if Minion carried extra food and tools when going on longer missions.";
+
+//44. Make Toilet
+"Craft a Twig Toilet" = "Craft a Twig Toilet";
+"Well done. But we can't use a toilet inside your inventory. It needs to be connected to a lake or river." = "Well done. But we can't use a toilet inside your inventory. It needs to be connected to a lake or river.";
+"First you need to craft Bark Rope." = "First you need to craft Bark Rope.";
+"You need to use Bark Rope and Sticks to craft the Wooden Bin." = "You need to use Bark Rope and Sticks to craft the Wooden Bin.";
+"You know all the ingredients find them and craft it." = "You know all the ingredients find them and craft it.";
+"All the turds around seems to smell. You should make a Toilet." = "All the turds around seems to smell. You should make a Toilet.";
+
+//45. Place Toilet
+"Place the Toilet near a lake" = "Place the Toilet near a lake";
+"Alright. Now, everyone in the village will poop in the Toilet." = "Alright. Now, everyone in the village will poop in the Toilet.";
+"You know, you remind me of myself when I was younger." = "You know, you remind me of myself when I was younger.";
+"How?" = "How?";
+"Moar quests!" = "Moar quests!";
+"Lets improve this village." = "Lets improve this village.";
+"In village, activate build mode to place the Toilet." = "In village, activate build mode to place the Toilet.";
+"Lets place that Toilet in our village." = "Lets place that Toilet in our village.";
+
+//46. Make & Place Well
+"Make a Well and place it in the village." = "Make a Well and place it in the village.";
+"You need wells to provide houses with water." = "You need wells to provide houses with water.";
+"In village, activate build mode to place the Well." = "In village, activate build mode to place the Well.";
+
+//47. Make & Place House
+"Make a house and place it in the village." = "Make a house and place it in the village.";
+"The more houses you make the more people this village can hold." = "The more houses you make the more people this village can hold.";
+"House can be placed near wells only." = "House can be placed near wells only.";
+
+//48. Move Out of Alf's House
+"I'm glad you're finally out of my house. It was fun living with you but a guy needs his space." = "I'm glad you're finally out of my house. It was fun living with you but a guy needs his space.";
+"I can't wait until we have a full village!" = "I can't wait until we have a full village!";
+"You have moved in to your new house." = "You have moved in to your new house.";
+"You don't have available living space in your village. Build another House." = "You don't have available living space in your village. Build another House.";
+"Isn't it time for you to move out of my space?" = "Isn't it time for you to move out of my space?";
+"In normal conditions, you'd owe me 6 months of rent!" = "In normal conditions, you'd owe me 6 months of rent!";
+"But I won't act like an old geezer. You can move out anytime you want." = "But I won't act like an old geezer. You can move out anytime you want.";
+"Move Out" = "Move Out";
+"Select the House you want to move in to." = "Select the House you want to move in to.";
+
+//49. Mating Chambers
+"Make a Mating Chamber and place it in the village." = "Make a Mating Chamber and place it in the village.";
+"Congrats. You can create an offsping and restart your journey by leaving the next generation some useful items or stats." = "Congrats. You can create an offsping and restart your journey by leaving the next generation some useful items or stats.";
+"From now on I won't show you anything new. But there are still lots of undiscovered interesting recipes." = "From now on I won't show you anything new. But there are still lots of undiscovered interesting recipes.";
+"I will occasionally ask some stuff from you in exchange for a Recipe Part Tablet. Hopefully you can use those tablets to unlock more recipes." = "I will occasionally ask some stuff from you in exchange for a Recipe Part Tablet. Hopefully you can use those tablets to unlock more recipes.";
+"You have gotten this far, I'm sure you'll figure this one out." = "You have gotten this far, I'm sure you'll figure this one out.";
+
+//==========================================================================================================
+//NeverEndingQuest
+"Bring me %@ %@ for a %@." = "Bring me %@ %@ for a %@."; //Bring me 5 Banana for a Shiny Stone
+"Well done, here is your prize." = "Well done, here is your prize.";
+"You have gotten this far, I'm sure you'll figure this one out." = "You have gotten this far, I'm sure you'll figure this one out.";
+
+//==========================================================================================================
+//SideQuest
+"You don't have enough room in your inventory for these items." = "You don't have enough room in your inventory for these items.";
+"You gain these items." = "You gain these items.";
+"You gain a %@." = "You gain a %@."; //You gain a banana
+
+//==========================================================================================================
+//SQ1-10.swift
+
+//1. Little Neanderthal Girl Appears
+"A little Neanderthal girl approaches." = "A little Neanderthal girl approaches.";
+"Hello sir. I'm hungry. Will you please help me?" = "Hello sir. I'm hungry. Will you please help me?";
+"Give food (20)" = "Give food (20)";
+"Give 20 energy worth of food." = "Give 20 energy worth of food.";
+"Thank you sir. I'm very grateful for this meal." = "Thank you sir. I'm very grateful for this meal.";
+":( Okay sir. Thank you for your time." = ":( Okay sir. Thank you for your time.";
+"Little girl leaves..." = "Little girl leaves...";
+
+//2. Kula the Neanderthal
+"A wanderer approaches." = "A wanderer approaches.";
+"Hello, I am Kula. I come from a Homo Neanderthal tribe called Huton." = "Hello, I am Kula. I come from a Homo Neanderthal tribe called Huton.";
+"I'm looking for my sister. Have you seen a little Neanderthal girl around here?" = "I'm looking for my sister. Have you seen a little Neanderthal girl around here?";
+"Wow! Where did she go? What situation was she in?" = "Wow! Where did she go? What situation was she in?";
+"Explain" = "Explain";
+"Did you feed her?" = "Did you feed her?";
+"Thank you. Here is a little gift. It is better than a normal stone." = "Thank you. Here is a little gift. It is better than a normal stone.";
+"I can't expect a stranger to just give away their food. Still, thank you for the info." = "I can't expect a stranger to just give away their food. Still, thank you for the info.";
+"Okay. Thank you for your time." = "Okay. Thank you for your time.";
+"Kula leaves..." = "Kula leaves...";
+
+//3. Kula comes back after finding sister
+"Hello again, %@. I found my little sister." = "Hello again, %@. I found my little sister."; //Hello again, Jack.
+"I can't believe a Sapien like you helped us Neanderthal strangers." = "I can't believe a Sapien like you helped us Neanderthal strangers.";
+"Take this Club as a token of friendship." = "Take this Club as a token of friendship.";
+"I can't believe a sapien like you helped us Neanderthal strangers. Though you could have said that you fed her." = "I can't believe a sapien like you helped us Neanderthal strangers. Though you could have said that you fed her.";
+"Why did you lie to me even though you saw her!" = "Why did you lie to me even though you saw her!";
+"I would've come for revenge but she said that you fed her. Thank you for feeding her but don't you dare lie to us again!" = "I would've come for revenge but she said that you fed her. Thank you for feeding her but don't you dare lie to us again!";
+"Kula the Neanderthal leaves!" = "Kula the Neanderthal leaves!";
+"You lied about feeding her and helping her out. That is not acceptable." = "You lied about feeding her and helping her out. That is not acceptable.";
+"Kula and his group beats you up and takes half of your things." = "Kula and his group beats you up and takes half of your things.";
+"Your directions helped me find her, so to keep a good relationship I want to give you a token of my respect." = "Your directions helped me find her, so to keep a good relationship I want to give you a token of my respect.";
+"You lied about not seeing her. It took me ages to finally get a hold of her. Lying to me or any of my group is not acceptable." = "You lied about not seeing her. It took me ages to finally get a hold of her. Lying to me or any of my group is not acceptable.";
+
+// MARK: - 4-5. Merchant
+"Can you craft me 5 Primitive Spears in exchange for a Shiny Stone." = "Can you craft me 5 Primitive Spears in exchange for a Shiny Stone.";
+"Okay, I'll be back in a few. I hope you'll finish them by then." = "Okay, I'll be back in a few. I hope you'll finish them by then.";
+"That's a second bummer. Maybe some other time." = "That's a second bummer. Maybe some other time.";
+"Seduran leaves." = "Seduran leaves.";
+"A wanderer approaches." = "A wanderer approaches.";
+"Hello, I am Seduran, a merchant. I heard Master Crafter Alf lives here." = "Hello, I am Seduran, a merchant. I heard Master Crafter Alf lives here.";
+"Is he available? I'd like to purchase some of his Delicate Spears." = "Is he available? I'd like to purchase some of his Delicate Spears.";
+"Call Alf" = "Call Alf";
+"He isn't available" = "He isn't available";
+"Hello Seduran. Sorry but I am retired. I no longer craft for anything other than my own well being. You can ask %@ to craft what you are looking for." = "Hello Seduran. Sorry but I am retired. I no longer craft for anything other than my own well being. You can ask %@ to craft what you are looking for.";
+"That's a bummer. I came all this way seeking for the finest of spears. Oh well.. I'll purchase some from you then." = "That's a bummer. I came all this way seeking for the finest of spears. Oh well.. I'll purchase some from you then.";
+"That's a bummer. Well then, I'll be on my way." = "That's a bummer. Well then, I'll be on my way.";
+"Wait! I can craft Spears" = "Wait! I can craft Spears";
+"Really? Are you sure? Normally crafters wear well made armors. You don't seem to be wearing anything durable." = "Really? Are you sure? Normally crafters wear well made armors. You don't seem to be wearing anything durable.";
+"I'm new to crafting." = "I'm new to crafting.";
+"Fair enough." = "Fair enough.";
+"I haven't gotten around to increase my tailoring skill yet." = "I haven't gotten around to increase my tailoring skill yet.";
+"Fair enough." = "Fair enough.";
+"Goodbye" = "Goodbye";
+"Hello, %@. Have you completed the 5 Primitive Spears I asked for?" = "Hello, %@. Have you completed the 5 Primitive Spears I asked for?";
+"A trade well done. Hope to keep a good trade connection. See you around." = "A trade well done. Hope to keep a good trade connection. See you around.";
+"You don't seem to have 5 Spears, will you complete them?" = "You don't seem to have 5 Spears, will you complete them?";
+"Okay. I'll be back later." = "Okay. I'll be back later.";
+"I wish you hadn't wasted my time." = "I wish you hadn't wasted my time.";
+"Why?" = "Why?";
+"I need more time." = "I need more time.";
+"Okay. I'll be back later." = "Okay. I'll be back later.";
+                    
+//6. First Attack
+"You hear a noise coming from within the house." = "You hear a noise coming from within the house.";
+"A random Erectus attacks you!" = "A random Erectus attacks you!";
+"Fight back!" = "Fight back!";
+"You successfully take down the Erectus." = "You successfully take down the Erectus.";
+"Kill!" = "Kill!";
+"The Erectus has been killed. Its belongings are now yours." = "The Erectus has been killed. Its belongings are now yours.";
+"Interrogate" = "Interrogate";
+"You learn that his name is Eroca and he has been banished from his tribe and the only way back is to return with a Sapien head." = "You learn that his name is Eroca and he has been banished from his tribe and the only way back is to return with a Sapien head.";
+"Spare Life" = "Spare Life";
+"Thank you for sparing my life. Now I have nowhere to go. I guess that is my problem." = "Thank you for sparing my life. Now I have nowhere to go. I guess that is my problem.";
+"Eroca the Erectus leaves." = "Eroca the Erectus leaves.";
+"Try to talk" = "Try to talk";
+"Erectus won't listen and you have to defend yourself." = "Erectus won't listen and you have to defend yourself.";
+"You kill the Erectus. Its belongings are now yours." = "You kill the Erectus. Its belongings are now yours.";
+
+//7. Sapien Girl with a Neanderthal boy
+"You see 2 humans wandering in the forest." = "You see 2 humans wandering in the forest.";
+"It's a Sapien girl with a Neanderthal boy." = "It's a Sapien girl with a Neanderthal boy.";
+"They spot you watching them and seem scared!" = "They spot you watching them and seem scared!";
+"Go after them" = "Go after them";
+"They start running but you manage to catch them." = "They start running but you manage to catch them.";
+"Please sir, don't tell on us. We don't mean no harm." = "Please sir, don't tell on us. We don't mean no harm.";
+"Let them go." = "Let them go.";
+"Thank you sir. I wish you the best of luck" = "Thank you sir. I wish you the best of luck";
+"Hahaha, %@ you also seem to be soft." = "Hahaha, %@ you also seem to be soft.";
+"Not a lot of races approve of their young mating with a different race. History has proven lots of conflict because of this reason alone." = "Not a lot of races approve of their young mating with a different race. History has proven lots of conflict because of this reason alone.";
+"Kids disappear in to the distance." = "Kids disappear in to the distance.";
+"Tell on them." = "Tell on them.";
+"You tell on them to the nearest group and both are taken captive." = "You tell on them to the nearest group and both are taken captive.";
+"Villages don't approve their young mating with different races. I hope you are okay with sending them off to their deaths." = "Villages don't approve their young mating with different races. I hope you are okay with sending them off to their deaths.";
+"Smile and wave" = "Smile and wave";
+"They smile and wave back, showing relief." = "They smile and wave back, showing relief.";
+
+//8. Begger getting mugged/does the mugging
+"Very well. Have a nice day." = "Very well. Have a nice day.";
+"Wanderer leaves..." = "Wanderer leaves...";
+"You hear a loud noise outside." = "You hear a loud noise outside.";
+"You go out and see that the wanderer has mugged someone for their food." = "You go out and see that the wanderer has mugged someone for their food.";
+"A wanderer approaches." = "A wanderer approaches.";
+"Hi. I'm very hungry. Could you give me some food (50 energy)?" = "Hi. I'm very hungry. Could you give me some food (50 energy)?";
+"Give 50 energy worth of food." = "Give 50 energy worth of food.";
+"Thank you! Have a nice day." = "Thank you! Have a nice day.";
+"Wanderer leaves..." = "Wanderer leaves...";
+"You hear a loud noise outside." = "You hear a loud noise outside.";
+"The wanderer has been mugged for the food that you just gave him." = "The wanderer has been mugged for the food that you just gave him.";
+
+//9. Seing the explorer for the first time
+"It is Neanderthal technology. Since I'm not a crafter I can not make anything out of it." = "It is Neanderthal technology. Since I'm not a crafter I can not make anything out of it.";
+"It is Erectus technology. Since I'm not a crafter I can not make anything out of it." = "It is Erectus technology. Since I'm not a crafter I can not make anything out of it.";
+"See you around %@." = "See you around %@.";
+"A wanderer approaches." = "A wanderer approaches.";
+"Hello, I am Marco the Explorer." = "Hello, I am Marco the Explorer.";
+"I have come to ask for your knowledge. Is there anything you can tell me about these lands?" = "I have come to ask for your knowledge. Is there anything you can tell me about these lands?";
+"Explain" = "Explain";
+"Hmm..\nThat's not very useful to me. But to keep a good relationship I offer you this Tablet I acquired." = "Hmm..\nThat's not very useful to me. But to keep a good relationship I offer you this Tablet I acquired.";
+"Hmm..\nThat's okay. To keep a good relationship I offer you this Tablet I acquired." = "Hmm..\nThat's okay. To keep a good relationship I offer you this Tablet I acquired.";
+                    
+//10. Gambler Kasino
+"A wanderer approaches." = "A wanderer approaches.";
+"Hi, I am Kasino." = "Hi, I am Kasino.";
+"People call me a gambler but I just like to play games. Would you like to play one for 500 energy worth of food?" = "People call me a gambler but I just like to play games. Would you like to play one for 500 energy worth of food?";
+"Give 500 energy worth of food." = "Give 500 energy worth of food.";
+"Roll this dice. If the number is even you win." = "Roll this dice. If the number is even you win.";
+"Roll" = "Roll";
+"Dice is rolling." = "Dice is rolling.";
+"Dice stops." = "Dice stops.";
+"Dice shows %@." = "Dice shows %@."; //Dice shows 5
+"Lucky roll! Here is your prize." = "Lucky roll! Here is your prize.";
+"Hahaha! Too bad! I win. Next time perhaps." = "Hahaha! Too bad! I win. Next time perhaps.";
+"Okay.. :(\nPerhaps another time." = "Okay.. :(\nPerhaps another time.";
+"Not Today" = "Not Today";
+"Okay.. :(\nPerhaps another time." = "Okay.. :(\nPerhaps another time.";
+
+//==========================================================================================================
+//SQ11-20.swift
+
+//11. Thief Sonka
+"You hear weird noises coming from your storage." = "You hear weird noises coming from your storage.";
+"You go in and stumble upon a woman digging through your things." = "You go in and stumble upon a woman digging through your things.";
+"You're a cautious fellow, normally no one would have noticed me." = "You're a cautious fellow, normally no one would have noticed me.";
+"Let's make a deal, you don't get in my way and I'll leave this place without taking anything." = "Let's make a deal, you don't get in my way and I'll leave this place without taking anything.";
+"Attack Her!" = "Attack Her!";
+"You try attacking her but she takes you down with ease." = "You try attacking her but she takes you down with ease.";
+"You see dear crafter, I've been training for situations like this all my life." = "You see dear crafter, I've been training for situations like this all my life.";
+"It's just stupid for a crafter with no fighting skill to challenge me." = "It's just stupid for a crafter with no fighting skill to challenge me.";
+"I've heard about your reputation as a crafter. You should hear mine." = "I've heard about your reputation as a crafter. You should hear mine.";
+"I'm Sonka the thief. Haven't been caught and never will be. Next time, try not to get in my way and I won't go hard on you." = "I'm Sonka the thief. Haven't been caught and never will be. Next time, try not to get in my way and I won't go hard on you.";
+"I was hoping you would craft me some tools, but.. next time maybe." = "I was hoping you would craft me some tools, but.. next time maybe.";
+"Gives you a little kiss and leaves." = "Gives you a little kiss and leaves.";
+"You look around and realize that all of your Shiny Stones has been taken!" = "You look around and realize that all of your Shiny Stones has been taken!";
+"You look around and realize that 2000 energy worth of food has been taken!" = "You look around and realize that 2000 energy worth of food has been taken!";
+"You look around and realize that 1000 energy worth of food has been taken!" = "You look around and realize that 1000 energy worth of food has been taken!";
+"You look around and realize that 500 energy worth of food has been taken!" = "You look around and realize that 500 energy worth of food has been taken!";
+"You look around and realize that %@ energy worth of food has been taken!" = "You look around and realize that %@ energy worth of food has been taken!";
+"Let her go" = "Let her go";
+"Wise choice. I've heard about your reputation as a crafter. You should hear mine." = "Wise choice. I've heard about your reputation as a crafter. You should hear mine.";
+"I'm Sonka the thief. Haven't been caught and never will be. I came here to see what you are capable of." = "I'm Sonka the thief. Haven't been caught and never will be. I came here to see what you are capable of.";
+"Maybe you'll make me some tools in the future, huh?" = "Maybe you'll make me some tools in the future, huh?";
+"Gives you a little kiss and leaves." = "Gives you a little kiss and leaves.";
+
+//12-13. Kula tribe got attacked wants food
+"Hello again %@." = "Hello again %@.";
+"Nice to see you doing well." = "Nice to see you doing well.";
+"Our tribe is in bad shape! The Erectus are blocking our food supplies and killing our people!" = "Our tribe is in bad shape! The Erectus are blocking our food supplies and killing our people!";
+"Would you mind giving us 2000 energy worth of food?" = "Would you mind giving us 2000 energy worth of food?";
+"Give 2000 energy worth of food." = "Give 2000 energy worth of food.";
+"You have done so much for us! I will repay my debt for sure!" = "You have done so much for us! I will repay my debt for sure!";
+"I will come back again later. I hope you'll have it this time." = "I will come back again later. I hope you'll have it this time.";
+"This is really bad for us. I hope something similar never happens to you." = "This is really bad for us. I hope something similar never happens to you.";
+"Hello again, %@. I know we got off the wrong foot." = "Hello again, %@. I know we got off the wrong foot.";
+"But in my defense, you deserved what was coming for you." = "But in my defense, you deserved what was coming for you.";
+"Now, it is a different situation and we need all the help we can get." = "Now, it is a different situation and we need all the help we can get.";
+"The Erectus are blocking our food supplies and killing our people!" = "The Erectus are blocking our food supplies and killing our people!";
+"Would you be willing to give us 2000 energy worth of food?." = "Would you be willing to give us 2000 energy worth of food?.";
+"Give 2000 energy worth of food." = "Give 2000 energy worth of food.";
+"This might be a good start for the future of our relationship!" = "This might be a good start for the future of our relationship!";
+"You're still a big liar as always. I hope you get what you deserve!" = "You're still a big liar as always. I hope you get what you deserve!";
+"Very well. I hope something similar never happens to you." = "Very well. I hope something similar never happens to you.";
+"I came here to collect the 2000 energy you promised." = "I came here to collect the 2000 energy you promised.";
+"You have done so much for us! I will repay my debt for sure!" = "You have done so much for us! I will repay my debt for sure!";
+"Stop stalling us! We will search for aid elsewhere." = "Stop stalling us! We will search for aid elsewhere.";
+"Kula leaves." = "Kula leaves.";
+
+//14. Jokar Storyteller (saber tooth joke)
+"A wanderer approaches." = "A wanderer approaches.";
+"Hi, I am Jokar." = "Hi, I am Jokar.";
+"I tell jokes & stories in exchange for food. But the first one is always free. Would you like to hear it?" = "I tell jokes & stories in exchange for food. But the first one is always free. Would you like to hear it?";
+"An Erectus walks into a bar with his sabertooth tiger and asks: \"Do you serve sapiens here?\"\nThe bartender says: \"Yes, of course we do!\"\nThe Erectus says, \"OK, I'll have a beer for myself and a sapien for my sabertooth.\"" = "An Erectus walks into a bar with his sabertooth tiger and asks: \"Do you serve sapiens here?\"\nThe bartender says: \"Yes, of course we do!\"\nThe Erectus says, \"OK, I'll have a beer for myself and a sapien for my sabertooth.\"";
+"Not Today" = "Not Today";
+"Thats okay. I'm sure you have a lot on your mind." = "Thats okay. I'm sure you have a lot on your mind.";
+"If you ever need a laugh, find me. I'm more than willing to cheer you up." = "If you ever need a laugh, find me. I'm more than willing to cheer you up.";
+"See you around.";
+
+//15. Kula tribe after  war
+"Hi %@." = "Hi %@.";
+"Thanks to your aid we were able to hold back the Erectus. We did lose a lot of people but our tribe still stands." = "Thanks to your aid we were able to hold back the Erectus. We did lose a lot of people but our tribe still stands.";
+"We want to share our special technology with you. Take this." = "We want to share our special technology with you. Take this.";
+"We want to share a technology we obtained from the Erectus. Take this." = "We want to share a technology we obtained from the Erectus. Take this.";
+"*cries*" = "*cries*";
+"*snif* *snif*\nI lost my only sibling Kula!" = "*snif* *snif*\nI lost my only sibling Kula!";
+"*snif*\nThe Erectus butchered our tribe! We had no energy to fight back!" = "*snif*\nThe Erectus butchered our tribe! We had no energy to fight back!";
+"*cries*\nI hope you can live with our blood on your hands." = "*cries*\nI hope you can live with our blood on your hands.";
+"Kulas sister leaves." = "Kulas sister leaves.";
+
+//16. Jokar Storyteller (minion joke)
+"Hey again! Wanna hear a joke? It will cost you 100 energy." = "Hey again! Wanna hear a joke? It will cost you 100 energy.";
+"Give 100 energy worth of food." = "Give 100 energy worth of food.";
+"A Minion walks into a bar and orders a grlumps humami. The bartender gives him a normal beer, Minion spills it over his head and leaves." = "A Minion walks into a bar and orders a grlumps humami. The bartender gives him a normal beer, Minion spills it over his head and leaves.";
+"See you around." = "See you around.";
+"I guess you don't have that much food. I'll come back again later." = "I guess you don't have that much food. I'll come back again later.";
+"Not Today" = "Not Today";
+"Okay. See you around." = "Okay. See you around.";
+
+//17. Sonka wants shiny sharp stone
+"Great!\nHere are 2 Shiny Stones. I'll be back to retrieve it." = "Great!\nHere are 2 Shiny Stones. I'll be back to retrieve it.";
+"Very well, babe. I hope you'll start working for me one of these days.." = "Very well, babe. I hope you'll start working for me one of these days..";
+"Makes a sexy look and leaves." = "Makes a sexy look and leaves.";
+"Hey there, looking nice ;)" = "Hey there, looking nice ;)";
+"Long time no see, huh?" = "Long time no see, huh?";
+"Attack" = "Attack";
+"Sonka takes you down with ease." = "Sonka takes you down with ease.";
+"Dear %@, you still haven't learned your lesson." = "Dear %@, you still haven't learned your lesson.";
+"I'm not here to fight. I want you to make me a Shiny Sharp Stone." = "I'm not here to fight. I want you to make me a Shiny Sharp Stone.";
+"Do nothing" = "Do nothing";
+"I want you to make me a Shiny Sharp Stone." = "I want you to make me a Shiny Sharp Stone.";
+
+//18. Jokar Storyteller (minion joke)
+"Hey there %@, wanna hear another joke? It's 200 energy." = "Hey there %@, wanna hear another joke? It's 200 energy.";
+"Give 200 energy worth of food." = "Give 200 energy worth of food.";
+"A Sapien, a Neanderthal and an Erectus walk into a bar, Sapien says he can lift more than the other 2. They both laugh hysterically. The Sapien bets 10 Shiny Stones that he can do it. They agree and both put 10 Shiny Stones in a bag." = "A Sapien, a Neanderthal and an Erectus walk into a bar, Sapien says he can lift more than the other 2. They both laugh hysterically. The Sapien bets 10 Shiny Stones that he can do it. They agree and both put 10 Shiny Stones in a bag.";
+"First the Erectus tries and he is able to lift 5 logs. Then the mighty Neanderthal tries and he is able to lift 8 logs. Lastly, it's Sapiens turn. Erectus and Neanderthal looks around but Sapien and the bag of Shiny Stones is gone." = "First the Erectus tries and he is able to lift 5 logs. Then the mighty Neanderthal tries and he is able to lift 8 logs. Lastly, it's Sapiens turn. Erectus and Neanderthal looks around but Sapien and the bag of Shiny Stones is gone.";
+"See you around." = "See you around.";
+"I guess you don't have that much food. I'll come back again later." = "I guess you don't have that much food. I'll come back again later.";
+"Not Today" = "Not Today";
+"Okay. See you around." = "Okay. See you around.";
+
+//19. Sonka comes back for the shiny sharpstone
+"I'm here for the Shiny Sharp Stone you promised me." = "I'm here for the Shiny Sharp Stone you promised me.";
+"Have you completed it?" = "Have you completed it?";
+"Great!\nYou have no idea what a thief can do with such a tool." = "Great!\nYou have no idea what a thief can do with such a tool.";
+"Here take this thing. I can't read it anyways." = "Here take this thing. I can't read it anyways.";
+"You lying little..." = "You lying little...";
+"I'm not mad at you. I have mastered the art of lying. It's actually cute that you are trying to play me." = "I'm not mad at you. I have mastered the art of lying. It's actually cute that you are trying to play me.";
+"Just so you don't try to rip me off again." = "Just so you don't try to rip me off again.";
+"Sonka beats you pretty well and leaves you lying on the floor." = "Sonka beats you pretty well and leaves you lying on the floor.";
+"Not Yet" = "Not Yet";
+"Okay, I'll be back to get it when it is done." = "Okay, I'll be back to get it when it is done.";
+
+//20. Crazy Cat Lady - Catherines
+"A lady with lots of cats approaches." = "A lady with lots of cats approaches.";
+"Hello, I'm Catherines and these are my cats." = "Hello, I'm Catherines and these are my cats.";
+"There is a scarcity of food in these lands so we haven't been able to keep our selves fed for sometime." = "There is a scarcity of food in these lands so we haven't been able to keep our selves fed for sometime.";
+"Would you be willing to feed my cats?" = "Would you be willing to feed my cats?";
+"Give 500 energy worth of food." = "Give 500 energy worth of food.";
+"Thank you so much for this food." = "Thank you so much for this food.";
+"Anytime" = "Anytime";
+"Invite to Village" = "Invite to Village";
+"What? Really? You want me to be a part of this place?" = "What? Really? You want me to be a part of this place?";
+"No, I was joking" = "No, I was joking";
+"Why do you even need to lie for something like this!" = "Why do you even need to lie for something like this!";
+"Cats!\nFormation pawtoration!" = "Cats!\nFormation pawtoration!";
+"Now! Attack!" = "Now! Attack!";
+"Cathrine's cats attack and knocks you out." = "Cathrine's cats attack and knocks you out.";
+"Some time pass and you slowly gain consciousness." = "Some time pass and you slowly gain consciousness.";
+"You look around and see that some food has been stolen." = "You look around and see that some food has been stolen.";
+"Of Course" = "Of Course";
+"Sure, I'd love to join." = "Sure, I'd love to join.";
+"I'm sorry that you don't have enough food. Take care" = "I'm sorry that you don't have enough food. Take care";
+"Very well, I'll be on my way." = "Very well, I'll be on my way.";
+
+//==========================================================================================================
+//SQ21-30
+
+//21-22. Funding marco's exploration
+"Hello again %@. Seems like you're doing well. I've been around this region exploring the area." = "Hello again %@. Seems like you're doing well. I've been around this region exploring the area."; //Hello again Jack.
+"I came across some ruins during my journey but was not able to explore it to the fullest." = "I came across some ruins during my journey but was not able to explore it to the fullest.";
+"I lack the necessary equipment and time so I thought I'd get my favor from you." = "I lack the necessary equipment and time so I thought I'd get my favor from you.";
+"Would you be willing to fund me with 10 Basic Shovels and 1000 energy worth of food for my next journey? I'd be happy to share the findings with you." = "Would you be willing to fund me with 10 Basic Shovels and 1000 energy worth of food for my next journey? I'd be happy to share the findings with you.";
+"Thats great! I'll be back to collect the equipment. See you later." = "Thats great! I'll be back to collect the equipment. See you later.";
+"Sucks.. I guess I'll have to find another crafter willing to fund me. Take care." = "Sucks.. I guess I'll have to find another crafter willing to fund me. Take care.";
+"Give 1000 energy worth of food" = "Give 1000 energy worth of food";
+"Thanks for the food and I'll take the shovels." = "Thanks for the food and I'll take the shovels.";
+"I'm glad I came here. Now I can finally fully explore a ruin." = "I'm glad I came here. Now I can finally fully explore a ruin.";
+"By the way, you have done well with the place, I'll be sure to put a word out to people I come across about the village." = "By the way, you have done well with the place, I'll be sure to put a word out to people I come across about the village.";
+"No problem, I'll wait until you have enough food ready." = "No problem, I'll wait until you have enough food ready.";
+"You don't seem to have 10 basic shovels, I'll wait until you have the shovels ready." = "You don't seem to have 10 basic shovels, I'll wait until you have the shovels ready.";
+"Do you have the equipment ready? Just a reminder, I needed 10 basic shovels and 1000 energy worth of food." = "Do you have the equipment ready? Just a reminder, I needed 10 basic shovels and 1000 energy worth of food.";
+"Not yet" = "Not yet";
+"Okay I'll keep waiting." = "Okay I'll keep waiting.";
+"It will be ready soon." = "It will be ready soon.";
+"I changed my mind. No equipment for you." = "I changed my mind. No equipment for you.";
+"Really? I'm sorry you changed your mind. I guess I'll have to find another crafter willing to fund me. Take care." = "Really? I'm sorry you changed your mind. I guess I'll have to find another crafter willing to fund me. Take care.";
+
+//23. Abena Sapien With A Huge Bag
+"A sapien with a huge bag approaches." = "A sapien with a huge bag approaches.";
+"Hello, I'm Abena. I heard from Marco the Explorer that you were in the process of building a village and hoped to join it." = "Hello, I'm Abena. I heard from Marco the Explorer that you were in the process of building a village and hoped to join it.";
+"I'm not sure what we have to pay in order to join but all I have are these Shiny Stones and a hideout." = "I'm not sure what we have to pay in order to join but all I have are these Shiny Stones and a hideout.";
+"I can't give you the Shiny Stones because they have a special meaning to me. But you can have my hideout. What do you say?" = "I can't give you the Shiny Stones because they have a special meaning to me. But you can have my hideout. What do you say?";
+"Sure, you can join." = "Sure, you can join.";
+"Kill Abena and take all his stuff" = "Kill Abena and take all his stuff";
+"You attack Abena and kill him with ease. Now all his items are belong to us." = "You attack Abena and kill him with ease. Now all his items are belong to us.";
+
+//24. Marco Back From Exploration
+"By the way, since the ruins was a place of worship there must have been some houses or a village nearby." = "By the way, since the ruins was a place of worship there must have been some houses or a village nearby.";
+"If you are willing to fund me again, I'd be happy to search that area for it." = "If you are willing to fund me again, I'd be happy to search that area for it.";
+"Sure, I'll fund you. What do you need?" = "Sure, I'll fund you. What do you need?";
+"I'll need to re-examine the place. I'll let you know when I am ready to go again." = "I'll need to re-examine the place. I'll let you know when I am ready to go again.";
+"Thanks for your help." = "Thanks for your help.";
+"I've got a lot on my hands right now." = "I've got a lot on my hands right now.";
+"Okay, I understand. May you stay safe." = "Okay, I understand. May you stay safe.";
+"The good news is that I was able to find some interesting things at the ruins." = "The good news is that I was able to find some interesting things at the ruins.";
+"As it turns out, it used to be a place of worship with a capacity for over 100 people." = "As it turns out, it used to be a place of worship with a capacity for over 100 people.";
+"Most of the things there were useless but I found a few things which could be useful." = "Most of the things there were useless but I found a few things which could be useful.";
+"I kept some of the ancient loot for my future explorations and brought you a statue and a tablet." = "I kept some of the ancient loot for my future explorations and brought you a statue and a tablet.";
+"Would you like to hear the bad news?" = "Would you like to hear the bad news?";
+"Yes, please." = "Yes, please.";
+"No, I'm good, give me the items." = "No, I'm good, give me the items.";
+"Sure, here you go." = "Sure, here you go.";
+"The bad news is that I saw a group of people out there raiding and killing travelers." = "The bad news is that I saw a group of people out there raiding and killing travelers.";
+"They were heading this way so I thought I'd give you a heads up." = "They were heading this way so I thought I'd give you a heads up.";
+"How many people were they?" = "How many people were they?";
+"I'm not sure. I hid to stay out of their way. I only saw a couple of them but they sounded like more than 10 people." = "I'm not sure. I hid to stay out of their way. I only saw a couple of them but they sounded like more than 10 people.";
+"Do these people happen to be Erectus by any chance?" = "Do these people happen to be Erectus by any chance?";
+"Yes they were. How did you know?" = "Yes they were. How did you know?";
+"I heard rumors about them." = "I heard rumors about them.";
+"If I were you, I'd increase my weapon/armor crafting skills then start stocking up on the strongest ones. You might need it." = "If I were you, I'd increase my weapon/armor crafting skills then start stocking up on the strongest ones. You might need it.";
+"Do you want to hear the good news now?" = "Do you want to hear the good news now?";
+"Lucky guess. Anything else I should know?" = "Lucky guess. Anything else I should know?";
+"Just becareful" = "Just becareful";
+"Do you want to hear the good news now?" = "Do you want to hear the good news now?";
+"Marco returns from exploration." = "Marco returns from exploration.";
+"Hi %@. I am back from the ruins." = "Hi %@. I am back from the ruins."; //Hi Jack.
+"I have good news and bad news. Which one would you like to hear first?" = "I have good news and bad news. Which one would you like to hear first?";
+"Good" = "Good";
+"Bad" = "Bad";
+
+//25. Fisherman appears (Fisherman quest chain 1 / 2)
+"Show me that you can best the waters and bring me a fine fish. I will give you some time to complete this task while I set up camp away from here. I will be back later to see what you have accomplished." = "Show me that you can best the waters and bring me a fine fish. I will give you some time to complete this task while I set up camp away from here. I will be back later to see what you have accomplished.";
+"Fiskeren makes a slow pace back toward where he came from, leaving a fishy smell behind." = "Fiskeren makes a slow pace back toward where he came from, leaving a fishy smell behind.";
+"A man of unsteady gait approaches. He carries with him the unmistakable smell of the sea." = "A man of unsteady gait approaches. He carries with him the unmistakable smell of the sea.";
+"He stops infront of you and peers at you through one squinting eye, the other eye completely missing." = "He stops infront of you and peers at you through one squinting eye, the other eye completely missing.";
+"I have come from a place far far away. I have scaled mountains reaching higher than the clouds. I have crossed oceans wilder than a raging forest fire. I have trudged across vast fields of snow. I have..." = "I have come from a place far far away. I have scaled mountains reaching higher than the clouds. I have crossed oceans wilder than a raging forest fire. I have trudged across vast fields of snow. I have...";
+"Ok, I get it" = "Ok, I get it";
+"I have passed many a trial to finally reach this fine settlement of Targ Drumbat the Challenger of Gods." = "I have passed many a trial to finally reach this fine settlement of Targ Drumbat the Challenger of Gods.";
+"Actually..." = "Actually...";
+"What? You are not Targ Drumbat but %@ you say? I've never even heard of you!" = "What? You are not Targ Drumbat but %@ you say? I've never even heard of you!";
+"The man deflates and looks considering at the ground for a while before raising his head. Looking up at you with new vigor and a gleam in his eye he seems to have come to a conclusion." = "The man deflates and looks considering at the ground for a while before raising his head. Looking up at you with new vigor and a gleam in his eye he seems to have come to a conclusion.";
+"Perhaps this place will do. Do you know anything about fish?" = "Perhaps this place will do. Do you know anything about fish?";
+"My name is Fiskeren and I will bless you with my presence in this settlement if you can prove to me that you are worthy of it." = "My name is Fiskeren and I will bless you with my presence in this settlement if you can prove to me that you are worthy of it.";
+"Then you need me more than anything. My name is Fiskeren and I will take you all under my wing if you can prove to me that you are worthy of my time." = "Then you need me more than anything. My name is Fiskeren and I will take you all under my wing if you can prove to me that you are worthy of my time.";
+
+//26. Fisherman appears (Fisherman quest chain 2 / 2)
+"Show me my house!" = "Show me my house!";
+"Show" = "Show";
+"Don't invite to village" = "Don't invite to village";
+"What?! After all the... Oh, never mind!" = "What?! After all the... Oh, never mind!";
+"Fiskeren throws his hands in the air and walks away, grumbling to himself." = "Fiskeren throws his hands in the air and walks away, grumbling to himself.";
+"So, %@, do you have proof of your worthiness?" = "So, %@, do you have proof of your worthiness?";
+"Not yet" = "Not yet";
+"Bah! I will be back later then." = "Bah! I will be back later then.";
+"Fiskeren walks away, muttering to himself." = "Fiskeren walks away, muttering to himself.";
+"Right here" = "Right here";
+"You hold up an imaginary fish for him to inspect." = "You hold up an imaginary fish for him to inspect.";
+"Did the harsh waters break your mind? Come back when you have a real fish to show me." = "Did the harsh waters break your mind? Come back when you have a real fish to show me.";
+"an" = "an";
+"a" = "a";
+"You hold up %@ %@ for him to inspect." = "You hold up %@ %@ for him to inspect."; //You hold up a Mackeral for him to inspect.
+"You call that puny thing a fish? I will be back when you start taking this seriously." = "You call that puny thing a fish? I will be back when you start taking this seriously.";
+"Fiskeren walks away, muttering to himself." = "Fiskeren walks away, muttering to himself.";
+"Well I guess I shouldn't expect more from the faint of heart. You obviously need my guiding hand." = "Well I guess I shouldn't expect more from the faint of heart. You obviously need my guiding hand.";
+"Not bad. I deem you worthy!" = "Not bad. I deem you worthy!";
+"That is a mighty catch indeed! You have proven yourself more than worthy of my guiding hand." = "That is a mighty catch indeed! You have proven yourself more than worthy of my guiding hand.";
+"Fiskeren gapes at you then throws himself down at your feet, begging you to take him under your wing." = "Fiskeren gapes at you then throws himself down at your feet, begging you to take him under your wing.";
+
+//27. Santa
+"What is white and falls during winter?" = "What is white and falls during winter?";
+"Snow" = "Snow";
+"Correct! On to the next question." = "Correct! On to the next question.";
+"Rain" = "Rain";
+"I'm afraid the answer was snow! On to the next question." = "I'm afraid the answer was snow! On to the next question.";
+"What keeps us warm in winter?" = "What keeps us warm in winter?";
+"Fire" = "Fire";
+"That was a trick question, both of the answers are correct." = "That was a trick question, both of the answers are correct.";
+"Clothing" = "Clothing";
+"Which food gives more energy when cooked?" = "Which food gives more energy when cooked?";
+"Roasted Banana" = "Roasted Banana";
+"I'm sorry to say this but the answer was meat soup." = "I'm sorry to say this but the answer was meat soup.";
+"Meat Soup" = "Meat Soup";
+"Another correct one! You're doing well." = "Another correct one! You're doing well.";
+"Why do cooked food give more energy than non cooked?" = "Why do cooked food give more energy than non cooked?";
+"Because cooking is art." = "Because cooking is art.";
+"Well, cooking is art but that is not the reason why it gives more energy. Cooking breaks down the food chemically which makes it easier for us to digest it." = "Well, cooking is art but that is not the reason why it gives more energy. Cooking breaks down the food chemically which makes it easier for us to digest it.";
+"Because cooking makes it easier to digest the food." = "Because cooking makes it easier to digest the food.";
+"I'm sorry to say this but.." = "I'm sorry to say this but..";
+"Kidding! Another correct answer. On to the next question." = "Kidding! Another correct answer. On to the next question.";
+"What has 4 legs, a trunk and can feed a family of 20?" = "What has 4 legs, a trunk and can feed a family of 20?";
+"Mammoth" = "Mammoth";
+"Correct!" = "Correct!";
+"Saber Tooth Tiger" = "Saber Tooth Tiger";
+"Nope it was mammoth, tigers don't have that much meat." = "Nope it was mammoth, tigers don't have that much meat.";
+"You've shown your knowledge, I think you're going to make a great crafter." = "You've shown your knowledge, I think you're going to make a great crafter.";
+"Here is your reward, enjoy your new year." = "Here is your reward, enjoy your new year.";
+"Oh my lad, you haven't answered enough questions correctly. You still have a lot to learn." = "Oh my lad, you haven't answered enough questions correctly. You still have a lot to learn.";
+"Here is a gift. I hope it'll keep you warm enough to focus on learning and refining your skills. Enjoy your new year." = "Here is a gift. I hope it'll keep you warm enough to focus on learning and refining your skills. Enjoy your new year.";
+"A fat old man with a huge white beard wearing all red approaches." = "A fat old man with a huge white beard wearing all red approaches.";
+"He-he-hlo fellow sapien, I'm Sa-Sa-Sanaturun Kakuna Puk Manta." = "He-he-hlo fellow sapien, I'm Sa-Sa-Sanaturun Kakuna Puk Manta.";
+"That's too long, I'll just call you Santa" = "That's too long, I'll just call you Santa";
+"That's okay, most people call me that." = "That's okay, most people call me that.";
+"If you can answer most of the following correctly I will give you a present. If not, well.. You'll see." = "If you can answer most of the following correctly I will give you a present. If not, well.. You'll see.";
+
+//28. Little Red Hooded Crazy Girl
+"You hear the soft whistling of a sweet melody approaching from a short distance." = "You hear the soft whistling of a sweet melody approaching from a short distance.";
+"Suddenly the whistling stops and a few seconds pass before you hear a young female voice from behind the bushes, introducing you to a couple of new curse words." = "Suddenly the whistling stops and a few seconds pass before you hear a young female voice from behind the bushes, introducing you to a couple of new curse words.";
+"Two small hands violently part the bushes, revealing a surprised face framed by a red fur hood." = "Two small hands violently part the bushes, revealing a surprised face framed by a red fur hood.";
+"Oh!" = "Oh!";
+"Oh?" = "Oh?";
+"Oh! Yeah, you surprised me is all." = "Oh! Yeah, you surprised me is all.";
+"She looks you up and down and grins." = "She looks you up and down and grins.";
+"Interesting outfit!" = "Interesting outfit!";
+"Interesting hood" = "Interesting hood";
+"Oh, it was a gift from my grandmother." = "Oh, it was a gift from my grandmother.";
+"I was gonna use it to keep my hair in check when riding the saber-toothed tiger." = "I was gonna use it to keep my hair in check when riding the saber-toothed tiger.";
+"You rode a tiger?!?" = "You rode a tiger?!?";
+"No, my grandmother convinced me it was a bad idea before she died." = "No, my grandmother convinced me it was a bad idea before she died.";
+"Sorry to hear she's dead." = "Sorry to hear she's dead.";
+"She was eaten by a wolf but I got help from a hunter and ate it right back." = "She was eaten by a wolf but I got help from a hunter and ate it right back.";
+"So the wolf ate your grandmother?" = "So the wolf ate your grandmother?";
+"Yeah!" = "Yeah!";
+"And then you ate the wolf?" = "And then you ate the wolf?";
+"Yeah! I... uh... I ate the... my..." = "Yeah! I... uh... I ate the... my...";
+"She makes a grimace, going slightly green." = "She makes a grimace, going slightly green.";
+"Better not think about it." = "Better not think about it.";
+"Better not." = "Better not.";
+"So... I came in hope of making a life in this village." = "So... I came in hope of making a life in this village.";
+"I have just the house for you." = "I have just the house for you.";
+"Great!" = "Great!";
+"My grandmother always called me a crazy girl but you can call me Robin." = "My grandmother always called me a crazy girl but you can call me Robin.";
+"Sorry, no cannibals." = "Sorry, no cannibals.";
+"..." = "...";
+"She turns around and start making her way back through the bushes, throwing leaves and profanities in all directions." = "She turns around and start making her way back through the bushes, throwing leaves and profanities in all directions.";
+
+//29. Philosopher
+"You stand by a great tree staring into the depths of the forest, your mind wandering as it usually does before inspiration strikes." = "You stand by a great tree staring into the depths of the forest, your mind wandering as it usually does before inspiration strikes.";
+"You sense the solution to an old problem starting to unfold when a gentle voice next to you pulls you back to the present." = "You sense the solution to an old problem starting to unfold when a gentle voice next to you pulls you back to the present.";
+"Day dreaming?" = "Day dreaming?";
+"Oh, I-" = "Oh, I-";
+"You were pondering the mysteries of the universe. I can tell you are a philosopher just like me." = "You were pondering the mysteries of the universe. I can tell you are a philosopher just like me.";
+"Actually-" = "Actually-";
+"Actually you are a bit embarrassed spending your days thinking rather than doing. It's nothing to be ashamed of and I know the habit all to well. Just because we aren't like those hunters, crafters, fishermen and other thoughtless fools doesn't mean we aren't people of great importance." = "Actually you are a bit embarrassed spending your days thinking rather than doing. It's nothing to be ashamed of and I know the habit all to well. Just because we aren't like those hunters, crafters, fishermen and other thoughtless fools doesn't mean we aren't people of great importance.";
+"But I'm-" = "But I'm-";
+"You're pondering the mysteries of existence. I know." = "You're pondering the mysteries of existence. I know.";
+"No, I-" = "No, I-";
+"My name is O'Fiero. Filos O'Fiero. The great philosopher. I'm sure you've heard of me." = "My name is O'Fiero. Filos O'Fiero. The great philosopher. I'm sure you've heard of me.";
+"..." = "...";
+"I knew you had!" = "I knew you had!";
+"I shall share some interesting thoughts about existence with you. It is my gift to a fellow philosopher." = "I shall share some interesting thoughts about existence with you. It is my gift to a fellow philosopher.";
+"You know as a child when you played with friends pretending to be great hunters and magnificent gatherers?" = "You know as a child when you played with friends pretending to be great hunters and magnificent gatherers?";
+"It was all just a game but the characters came to life in our minds, a made up reality we could share with each other." = "It was all just a game but the characters came to life in our minds, a made up reality we could share with each other.";
+"The characters in our games didn't know they were part of a game, they just did what we pretended they'd do. They were limited to our imagination and acted accordingly." = "The characters in our games didn't know they were part of a game, they just did what we pretended they'd do. They were limited to our imagination and acted accordingly.";
+"So what if we are mere constructs of someones imagination? Characters in some game, any control or free will just an illusion created by a bored brain. How's that for existence?" = "So what if we are mere constructs of someones imagination? Characters in some game, any control or free will just an illusion created by a bored brain. How's that for existence?";
+"That's ridicul-" = "That's ridicul-";
+"Ridiculously deep, I know." = "Ridiculously deep, I know.";
+"Well, I leave you with those thoughts. It's time for me to move on." = "Well, I leave you with those thoughts. It's time for me to move on.";
+"You watch him disappearing through the foliage into the dark of the dense forest." = "You watch him disappearing through the foliage into the dark of the dense forest.";
+"After a few long minutes in silence you shake your head clear and start walking back towards the village." = "After a few long minutes in silence you shake your head clear and start walking back towards the village.";
+"Life being the temporary creation by the whim of a bored brain? Every accomplishment, everything you've crafted, all you have to be proud of actually part of someone else's game? No. No, you just can't let yourself believe that. It's not only absurd, it would make everything..." = "Life being the temporary creation by the whim of a bored brain? Every accomplishment, everything you've crafted, all you have to be proud of actually part of someone else's game? No. No, you just can't let yourself believe that. It's not only absurd, it would make everything...";
+"No, you can't let yourself follow these thoughts. That man was clearly insane." = "No, you can't let yourself follow these thoughts. That man was clearly insane.";
+"Yet..." = "Yet...";
+
+//30. Abandoned Erectus Campsite
+"While gazing into the woods a shine catches your attention." = "While gazing into the woods a shine catches your attention.";
+"Take a closer look" = "Take a closer look";
+"You walk toward the location armed and ready for a fight." = "You walk toward the location armed and ready for a fight.";
+"But no one is there. After looking around some more you decide to turn back." = "But no one is there. After looking around some more you decide to turn back.";
+"While turning back your eye catches something in the ground and you try to dig it up." = "While turning back your eye catches something in the ground and you try to dig it up.";
+"After some digging you find some old tools left from an earlier tribe." = "After some digging you find some old tools left from an earlier tribe.";
+
+//==========================================================================================================
+//SQ31-40
+
+//31. Motley Crew
+"A motley crew of strangely dressed individuals approach you. One of them appears to be wearing a skull as a hat. One of them hands you a strange device which appears to be hollow bones lashed together with vines. They demand you blow into the pipes for their entertainment!" = "A motley crew of strangely dressed individuals approach you. One of them appears to be wearing a skull as a hat. One of them hands you a strange device which appears to be hollow bones lashed together with vines. They demand you blow into the pipes for their entertainment!";
+"Refuse" = "Refuse";
+"The motley crew snatch the pipes off you, smash them to the ground and set fire to your toilet before running off into the forest, screaming and whooping melodically." = "The motley crew snatch the pipes off you, smash them to the ground and set fire to your toilet before running off into the forest, screaming and whooping melodically.";
+"Blow" = "Blow";
+"The horrendous noise makes the motley crew jump and shot in unison. A crowd of monkeys appear, but they don't seem to appreciate the performance and pelt you all with fruit and worse! The crew snatch the pipes off you, demand that you practice, and promise not to show up again unless they're sober." = "The horrendous noise makes the motley crew jump and shot in unison. A crowd of monkeys appear, but they don't seem to appreciate the performance and pelt you all with fruit and worse! The crew snatch the pipes off you, demand that you practice, and promise not to show up again unless they're sober.";
+
+//==========================================================================================================
+//QTRandom1-10
+
+//General
+"Leave it" = "Leave it";
+"Cool" = "Cool";
+
+//1. Monkeys throw banana and shit
+"You hear weird noises coming from a distance." = "You hear weird noises coming from a distance.";
+"Investigate" = "Investigate";
+"A bunch of monkeys are arguing about something." = "A bunch of monkeys are arguing about something.";
+"They spot you in the field." = "They spot you in the field.";
+"Run!" = "Run!";
+"They chase you and beat you unconscious." = "They chase you and beat you unconscious.";
+"They chase you but you manage to escape with only a few scratches." = "They chase you but you manage to escape with only a few scratches.";
+"Stand still!" = "Stand still!";
+"They throw banana skins and rotten fruit at you then run off into the forest!" = "They throw banana skins and rotten fruit at you then run off into the forest!";
+"They chase you until you trip over then they take it in turns to jump on you and smear bananas all over you!" = "They chase you until you trip over then they take it in turns to jump on you and smear bananas all over you!";
+
+//2. Bears playing
+"You hear loud noises right up ahead." = "You hear loud noises right up ahead.";
+"Investigate" = "Investigate";
+"A few bears are making a racket playing with each other." = "A few bears are making a racket playing with each other.";
+"They smash everything in their way and vanish into the distance." = "They smash everything in their way and vanish into the distance.";
+"A lot of Coconuts & broken Coconuts are left. It's an easy gather." = "A lot of Coconuts & broken Coconuts are left. It's an easy gather.";
+"A lot of Tree Branches & Trunks are left. It's an easy gather." = "A lot of Tree Branches & Trunks are left. It's an easy gather.";
+"A lot of Stone & Stick are left. It's an easy gather." = "A lot of Stone & Stick are left. It's an easy gather.";
+"Some dead animals are left. It's an easy gather." = "Some dead animals are left. It's an easy gather.";
+
+//3. Bird nest
+"You find some birds chirping on a tree top." = "You find some birds chirping on a tree top.";
+"Investigate" = "Investigate";
+"They seem to have gathered quite a few nuts in the tree." = "They seem to have gathered quite a few nuts in the tree.";
+"Try to get it" = "Try to get it";
+"When they leave the nest you climb up the tree and start gathering the nuts." = "When they leave the nest you climb up the tree and start gathering the nuts.";
+"But the birds come back and you have to fight." = "But the birds come back and you have to fight.";
+"Luckily, you managed to get away with only a few bruises while securing the nuts." = "Luckily, you managed to get away with only a few bruises while securing the nuts.";
+"You fall from the tree and hit your head pretty bad.. When you wake up you see you've taken down the whole nest with you." = "You fall from the tree and hit your head pretty bad.. When you wake up you see you've taken down the whole nest with you.";
+"You secured the nuts without any injuries." = "You secured the nuts without any injuries.";
+"You manage to get away with some nuts but the birds follow back and take revenge." = "You manage to get away with some nuts but the birds follow back and take revenge.";
+"You kill the birds and take everything with you." = "You kill the birds and take everything with you.";
+
+//4. Seduran
+"Would you like to join our village?" = "Would you like to join our village?";
+"Hello again %@, I'm seeking to trade this %@ for %@ %@. Would you be interested?" = "Hello again %@, I'm seeking to trade this %@ for %@ %@. Would you be interested?"; //Hello again Jack, I'm seeking to trade this Stone for 50 Arrow. Would you be interested?
+"Thank you for these %@s. See you around." = "Thank you for these %@s. See you around."; // Thank you for these Stones.
+"You don't seem to have %@ %@s, I'll come back again later." = "You don't seem to have %@ %@s, I'll come back again later."; //You don't seem to have 20 Arrows,
+"Do you have a Merchant Shop?" = "Do you have a Merchant Shop?";
+"Wow, really? Let me see." = "Wow, really? Let me see.";
+"Nice building, ehem, I mean it's okay." = "Nice building, ehem, I mean it's okay.";
+"I still gotta think about it a little bit more." = "I still gotta think about it a little bit more.";
+"Though, you seem to have a nice village." = "Though, you seem to have a nice village.";
+"And the amount of visitors you're attracting here is good." = "And the amount of visitors you're attracting here is good.";
+"And they seem to have a lot of money.. money.." = "And they seem to have a lot of money.. money..";
+"Alright! Sign me up!" = "Alright! Sign me up!";
+"Wait! I don't see a village around!" = "Wait! I don't see a village around!";
+"Haha, nice one. You wouldn't make a bad dealer yourself." = "Haha, nice one. You wouldn't make a bad dealer yourself.";
+"But you shouldn't get caught before the deal is over or your lies will just hurt your reputation." = "But you shouldn't get caught before the deal is over or your lies will just hurt your reputation.";
+"Anyways when you're making a merchant shop make sure to include a few tables and some fur carpets. See you." = "Anyways when you're making a merchant shop make sure to include a few tables and some fur carpets. See you.";
+"Then I can not join your village. It would be bad for my business." = "Then I can not join your village. It would be bad for my business.";
+"I find trade as an important part of life (I like money)." = "I find trade as an important part of life (I like money).";
+"Anyways when you're making a merchant shop make sure to include a few tables and some fur carpets. See you." = "Anyways when you're making a merchant shop make sure to include a few tables and some fur carpets. See you.";
+"Very well, perhaps another time." = "Very well, perhaps another time.";
+"Seduran leaves..." = "Seduran leaves...";
+
+//5. Neanderthal vs Erectus
+"You hear a loud racket outside." = "You hear a loud racket outside.";
+"It is a neanderthal with power %@ & an erectus with power %@ battling to death." = "It is a neanderthal with power %@ & an erectus with power %@ battling to death.";
+"Break it up" = "Break it up";
+"You successfully break them up and they run off back to their tribes leaving a few things behind." = "You successfully break them up and they run off back to their tribes leaving a few things behind.";
+"You try to break them up but they end up ganging up on you beating you down and stealing your things." = "You try to break them up but they end up ganging up on you beating you down and stealing your things.";
+"Just Watch" = "Just Watch";
+"Neanderthal beats the erectus, glances at you then leaves." = "Neanderthal beats the erectus, glances at you then leaves.";
+"Neanderthal beats the erectus and blames you for not helping and attacks you." = "Neanderthal beats the erectus and blames you for not helping and attacks you.";
+"Neanderthal with %@ power vs %@ with %@ power." = "Neanderthal with %@ power vs %@ with %@ power."; //Neanderthal with 5 power vs Jack with 6 power.
+"You overpower the neanderthal and take its things." = "You overpower the neanderthal and take its things.";
+"Neanderthal beats you up and takes some of your food." = "Neanderthal beats you up and takes some of your food.";
+"More Erectus come out from no where and beat the Neanderthal to death. You run back and stay quiet hoping that they didn't see you." = "More Erectus come out from no where and beat the Neanderthal to death. You run back and stay quiet hoping that they didn't see you.";
+"Erectus beats the neanderthal and comes towards you in attack position but decides to fall back due to recent battle." = "Erectus beats the neanderthal and comes towards you in attack position but decides to fall back due to recent battle.";
+
+//6. Minion friends
+"You hear Minion sounds coming from a distance." = "You hear Minion sounds coming from a distance.";
+"Your Minion runs off to take a look at them." = "Your Minion runs off to take a look at them.";
+"There are lots of Minions all playing, eating and having fun." = "There are lots of Minions all playing, eating and having fun.";
+"Call Minion" = "Call Minion";
+"Minion looks at you but keeps on hanging out with its kind." = "Minion looks at you but keeps on hanging out with its kind.";
+"After a while it gets tired and decides to return." = "After a while it gets tired and decides to return.";
+"Join them" = "Join them";
+"You eat and play with them. When both of you are tired, you return back." = "You eat and play with them. When both of you are tired, you return back.";
+
+//7. Gambler Likes Gambling
+"What's up, %@? Wanna play a game?" = "What's up, %@? Wanna play a game?";
+"Shiny Stone" = "Shiny Stone";
+"N. Tablet" = "N. Tablet"; //Neanderthal Tablet
+"Tablet" = "Tablet"; //Recipe Tablet
+"Container" = "Container";
+"What would you like to bet?\n-1000 energy of food for %@, roll a %@ sided dice\n-1000 energy of food for %@, roll a %@ sided dice.\nYou will win if it is 1." = "What would you like to bet?\n-1000 energy of food for %@, roll a %@ sided dice\n-1000 energy of food for %@, roll a %@ sided dice.\nYou will win if it is 1."; //What would you like to bet?\n-1000 energy of food for Tablet, roll a 3 sided dice\n-1000 energy of food for Container, roll a 5 sided dice.\nYou will win if it is 1."
+"Select the food you want to bet with!" = "Select the food you want to bet with!";
+"Dice is rolling." = "Dice is rolling.";
+"Dice stops." = "Dice stops.";
+"Dice shows %@." = "Dice shows %@.";
+"Lucky roll, here is your prize." = "Lucky roll, here is your prize.";
+"Hahaha, I win. Next time perhaps." = "Hahaha, I win. Next time perhaps.";
+"No problem, I'm around here, we can gamble some other time." = "No problem, I'm around here, we can gamble some other time.";
+"Okay.. :(\nPerhaps another time." = "Okay.. :(\nPerhaps another time.";
+
+//8. Giving Player Inheritance
+"A wanderer approaches." = "A wanderer approaches.";
+"Hello %@, I'm a friend of your father. His last wish was for me to give you " = "Hello %@, I'm a friend of your father. His last wish was for me to give you ";
+"these" = "these";
+"this" = "this";
+
+//9. Another master crafter for tactical shiny tool
+"Coming back from a short walk in the forest you stop dead in your tracks. There is someone talking to Alf and he’s wearing a robe made from a black material you have never seen before." = "Coming back from a short walk in the forest you stop dead in your tracks. There is someone talking to Alf and he’s wearing a robe made from a black material you have never seen before.";
+"They seem to know each other and you can see them nodding in agreement on something." = "They seem to know each other and you can see them nodding in agreement on something.";
+"The stranger slowly turns to face you. You can’t quite grasp his facial features but two intense green eyes seem to shine at you from within his cowl." = "The stranger slowly turns to face you. You can’t quite grasp his facial features but two intense green eyes seem to shine at you from within his cowl.";
+"He beckons you over and before you have decided what to do you realize your legs are already moving." = "He beckons you over and before you have decided what to do you realize your legs are already moving.";
+"Hello %@, I'm Master Crafter Psi." = "Hello %@, I'm Master Crafter Psi.";
+"His words have the weight of worlds and resonate perfectly with the very core of your being. Those plain words are the most frightening you have ever heard." = "His words have the weight of worlds and resonate perfectly with the very core of your being. Those plain words are the most frightening you have ever heard.";
+"Do not be afraid. You are perfectly safe here." = "Do not be afraid. You are perfectly safe here.";
+"Suddenly you relax and all tensions drain away. You can’t quite grasp what had been wrong. He seems warm and friendly." = "Suddenly you relax and all tensions drain away. You can’t quite grasp what had been wrong. He seems warm and friendly.";
+"I hear you are dedicated to the art of crafting; that you put a lot of attention to details and never accept any half measures. That is good to hear." = "I hear you are dedicated to the art of crafting; that you put a lot of attention to details and never accept any half measures. That is good to hear.";
+"It’s obvious that you still have many skills to learn and a lot to discover but I do sense a great potential in you." = "It’s obvious that you still have many skills to learn and a lot to discover but I do sense a great potential in you.";
+"You start to get excited. Is he going to teach you a new skill? How to make such a robe perhaps? Or… something he did earlier… with words? No, that wasn’t…" = "You start to get excited. Is he going to teach you a new skill? How to make such a robe perhaps? Or… something he did earlier… with words? No, that wasn’t…";
+"I can see excitement and confusion in your eyes. Patience is key. If you keep this up I’m certain you will unlock your potential to become a true master crafter." = "I can see excitement and confusion in your eyes. Patience is key. If you keep this up I’m certain you will unlock your potential to become a true master crafter.";
+"The skills to work with materials are not the only things you need to master. Crafting always starts within you. Learn to craft your thoughts in new ways and new roads will open up to you." = "The skills to work with materials are not the only things you need to master. Crafting always starts within you. Learn to craft your thoughts in new ways and new roads will open up to you.";
+"For now I leave you with this small gift and I hope you will pursue the art of crafting to the fullest. When you reach the point of true mastery we shall meet again." = "For now I leave you with this small gift and I hope you will pursue the art of crafting to the fullest. When you reach the point of true mastery we shall meet again.";
+
+//10. Giving Player Energy because we lost their save file
+"A wanderer approaches." = "A wanderer approaches.";
+"Hello %@, I'm a friend of the gods. They wanted you to have these delicious foods." = "Hello %@, I'm a friend of the gods. They wanted you to have these delicious foods.";
+
+//==========================================================================================================
+//Minion
+"Can only equip bags!" = "Can only equip bags!";
+"Storage is full!" = "Storage is full!";
+"Storage Full" = "Storage Full";
+"Can't gather that item!" = "Can't gather that item!";
+"Not enough communication skill!" = "Not enough communication skill!";
+"There already is a tool" = "There already is a tool";
+"Can't use that tool!" = "Can't use that tool!";
+"That is not a tool!" = "That is not a tool!";
+"Changed rod" = "Changed rod";
+"Changed weapon" = "Changed weapon";
+"Tool used up" = "Tool used up";
+
+"-%@ energy" = "-%@ energy"; //-5 energy
+"You've exhaused your Minion!" = "You've exhaused your Minion!";
+"I'm sorry" = "I'm sorry";
+"Your Minion has entered tired mode.\nHe will work slower during this process." = "Your Minion has entered tired mode.\nHe will work slower during this process.";
+"Your Minion is back on its feet." = "Your Minion is back on its feet.";
+"Minion seems to be full" = "Minion seems to be full";
+
+"Head armor torn" = "Head armor torn";
+"Head armor changed" = "Head armor changed";
+"Chest armor torn" = "Chest armor torn";
+"Chest armor changed" = "Chest armor changed";
+"Leg armor torn" = "Leg armor torn";
+"Leg armor changed" = "Leg armor changed";
+"Feet armor torn" = "Feet armor torn";
+"Feet armor changed" = "Feet armor changed";
+"Not an armor!" = "Not an armor!";
+"Can't place that armor there!" = "Can't place that armor there!";
+
+//==========================================================================================================
+//Player
+"Player" = "Player";
+"You don't have enough energy" = "You don't have enough energy";
+"You seem to be full" = "You seem to be full";
+"Your toilet is full!" = "Your toilet is full!";
+"Weapon used up" = "Weapon used up";
+"Can't fight with that tool!" = "Can't fight with that tool!";
+"Can't equip other than apron!" = "Can't equip other than apron!";
+"Can't equip other than book!" = "Can't equip other than book!";
+"Can't equip other than glove!" = "Can't equip other than glove!";
+
+//==========================================================================================================
+//EnergyManagement
+"Something went wrong about eating food, please tell us what you did that could have caused this, from the contact menu. As soon as we understand the problem we will fix it. Thanks for your patience." = "Something went wrong about eating food, please tell us what you did that could have caused this, from the contact menu. As soon as we understand the problem we will fix it. Thanks for your patience.";
+"Can't eat that!" = "Can't eat that!";
+"+%@ energy" = "+%@ energy"; //+2 energy
+"%@ energy" = "%@ energy"; //2 energy
+"Minion away!" = "Minion away!";
+"You are full" = "You are full";
+"Minion is full" = "Minion is full";
+
+//==========================================================================================================
+//SendMinion
+"Need energy!" = "Need energy!";
+"Tool is empty!" = "Tool is empty!";
+"Can't Go!" = "Can't Go!";
+"No ammo, load up!" = "No ammo, load up!";
+"%@ not high enough" = "%@ not high enough"; //Gathering not high enough
+
+//==========================================================================================================
+//ViewEngine
+"Try 1 at a time" = "Try 1 at a time";
+"Select a Tool" = "Select a Tool";
+"Something went wrong about item throwing, to fix this bug, we need your inventory screen shot and explain what you did please. Thanks" = "Something went wrong about item throwing, to fix this bug, we need your inventory screen shot and explain what you did please. Thanks";
+"Are you sure you want to throw this away?" = "Are you sure you want to throw this away?";
+"Got rid of %@" = "Got rid of %@"; //Got rid of Banana
+" This container(%@) still has %@ items in it." = " This container(%@) still has %@ items in it."; //This container(Foods) still has 15 items in it.
+
+//==========================================================================================================
+//ViewEnginePanGesture
+"%@ fire" = "%@ fire";
+
+//==========================================================================================================
+//LocationAction
+"Tip Added" = "Tip Added";
+"Can't eat that!" = "Can't eat that!";
+"Can't craft containers!" = "Can't craft containers!";
+"Try 1 at a time" = "Try 1 at a time";
+"No such recipe!" = "No such recipe!";
+"Not enough skill!" = "Not enough skill!";
+"Recipe not discovered!" = "Recipe not discovered!";
+"You don't have the required tool" = "You don't have the required tool";
+"You don't have the required items" = "You don't have the required items";
+"You don't have enough storage space" = "You don't have enough storage space";
+"Minion away!" = "Minion away!";
+"Can't equip there!" = "Can't equip there!";
+"Can't put container inside container!" = "Can't put container inside container!";
+"That's not a food" = "That's not a food";
+"Doesn't increase energy" = "Doesn't increase energy";
+"That's not a %@!" = "That's not a %@!";
+"That's not a bait!" = "That's not a bait!";
+"Can't burn that!" = "Can't burn that!";
+"Can't burn itself!" = "Can't burn itself!";
+"Are you sure you want to burn that?" = "Are you sure you want to burn that?";
+"Not yet active!" = "Not yet active!";
+"Can't equip that!" = "Can't equip that!";
+"Equip a bag!" = "Equip a bag!";
+"No Bag!" = "No Bag!";
+"Can't store that many bait" = "Can't store that many bait";
+"Can't store that many ammo." = "Can't store that many ammo.";
+"Fire already too hot!" = "Fire already too hot!";
+"Put out the fire!" = "Put out the fire!";
+
+//==========================================================================================================
+//HeaderVC
+"You are exhausted" = "You are exhausted";
+"Minions gather bag has %@ items in %@ slots." = "Minions gather bag has %@ items in %@ slots.";
+
+//==========================================================================================================
+//HeaderView
+"Developer Message" = "Developer Message";
+"Recall" = "Recall"; //Call back
+
+//==========================================================================================================
+//VillageViewEngine
+"Can't build on that tile." = "Can't build on that tile.";
+"Can't build more than one %@." = "Can't build more than one %@.";
+"Can't remove this house!" = "Can't remove this house!";
+"Removing will delete the items. Do you wish to remove this structure?" = "Removing will delete the items. Do you wish to remove this structure?";
+"Remove this structure?" = "Remove this structure?";
+"Can't remove well when there are nearby houses." = "Can't remove well when there are nearby houses.";
+"Can't remove house when villagers inside." = "Can't remove house when villagers inside.";
+"Removing will delete these tablets. Do you wish to remove this structure?" = "Removing will delete these tablets. Do you wish to remove this structure?";
+"Removing will delete these tablets and more. Do you wish to remove this structure?" = "Removing will delete these tablets and more. Do you wish to remove this structure?";
+"Can't remove market when you have workers inside." = "Can't remove market when you have workers inside.";
+"No action for this tile type at the moment" = "No action for this tile type at the moment";
+"Welcome to my home, feel free to look around." = "Welcome to my home, feel free to look around.";
+"Allows you to build houses nearby." = "Allows you to build houses nearby.";
+"Looks good." = "Looks good.";
+
+//==========================================================================================================
+//VillageVC
+"Build Mode Activated" = "Build Mode Activated";
+"View Mode Activated" = "View Mode Activated";
+
+//==========================================================================================================
+//VillageView
+"Change village name to" = "Change village name to";
+"Population: %@/%@" = "Population: %@/%@"; // 2/2
+"Close" = "Close";
+"You don't have any buildings." = "You don't have any buildings.";
+"Craft buildings with the building skill." = "Craft buildings with the building skill.";
+//==========================================================================================================
+//ItemVC
+"Mark all recipe updates as read?" = "Mark all recipe updates as read?";
+"Can't craft under 1 item" = "Can't craft under 1 item";
+"You don't have the proper skill" = "You don't have the proper skill";
+"Not enough skill for multi crafting" = "Not enough skill for multi crafting";
+"Failed to craft" = "Failed to craft";
+"Not enough energy" = "Not enough energy";
+"Not enough tool level" = "Not enough tool level";
+"Not enough tool durability" = "Not enough tool durability";
+"No such recipe" = "No such recipe";
+"Item Burned" = "Item Burned";
+"Scrapped tool" = "Scrapped tool";
+"Scrapping failed" = "Scrapping failed";
+"Can't store more ammo!" = "Can't store more ammo!";
+"Can't store more bait!" = "Can't store more bait!";
+"+%@ ammo" = "+%@ ammo"; //+3 ammo
+"+%@ bait" = "+%@ bait"; //+3 bait
+"Need %@ %@" = "Need %@ %@"; //Need 20.0 Toolcrafting
+
+//==========================================================================================================
+//ItemView
+"Craft" = "Craft";
+
+//==========================================================================================================
+//RecipeVC
+"Mark all recipe updates as read?" = "Mark all recipe updates as read?";
+"Skill not active." = "Skill not active.";
+"Recipes" = "Recipes";
+"Slots: " = "Slots: "; //Slots: 12
+"Meal Prep: %@" = "Meal Prep: %@"; //Short for Meal Preparing
+"Tool Crafting: %@" = "Tool Crafting: %@"; //Tool Crafting: 12.2
+"Wood Working: %@" = "Wood Working: %@";
+"Skinning: %@" = "Skinning: %@";
+"Cooking: %@" = "Cooking: %@";
+"Tailoring: %@" = "Tailoring: %@";
+"Pottery: %@" = "Pottery: %@";
+"Construction: %@" = "Construction: %@";
+"Painting: %@" = "Painting: %@";
+"Max Residence: %@" = "Max Residence: %@"; //Max Residence: 12
+"Explanation: %@" = "Explanation: %@";
+"%@ Required: ???" = "%@ Required: ???"; //Pottery Required: ???
+"%@ Required: %@" = "%@ Required: %@"; //Pottery Required: 12.2
+"Energy: %@" = "Energy: %@";
+"Durability: %@" = "Durability: %@";
+"Success chance: ???" = "Success chance: ???";
+"Success chance: %@%" = "Success chance: %@%"; //Success chance: 55%
+"Power: %@" = "Power: %@"; //Power: 12 
+"Craft Tool Level: %@" = "Craft Tool Level: %@";
+"Max Heat: %@" = "Max Heat: %@";
+"Max Bait: %@" = "Max Bait: %@";
+"Burn Energy: %@" = "Burn Energy: %@";
+
+//==========================================================================================================
+//RecipeView
+"You have not unlocked this skill yet." = "You have not unlocked this skill yet.";
+
+//==========================================================================================================
+//StatsVC
+"Change Name" = "Change Name";
+"Change Name To" = "Change Name To";
+"Change" = "Change";
+"Recipes Found" = "Recipes Found";
+"Tip Collection" = "Tip Collection";
+"Tips Collected" = "Tips Collected";
+"View Collection" = "View Collection";
+"Achievements" = "Achievements";
+"You need to be logged into Game Center. A popup should have opened and asked you to login, if it doesn't happen and you're trying to login please let us know." = "You need to be logged into Game Center. A popup should have opened and asked you to login, if it doesn't happen and you're trying to login please let us know.";
+"View Achievements" = "View Achievements";
+"Login to Game Center!" = "Login to Game Center!";
+"Stats" = "Stats";
+"%@ successfuly crafted" = "%@ successfuly crafted";
+"%@ failed to craft" = "%@ failed to craft";
+"%@ energy in storage" = "%@ energy in storage";
+"Game Reset Count: %@" = "Game Reset Count: %@";
+"Current Generation: %@" = "Current Generation: %@";
+"Total of %@ crafting successful" = "Total of %@ crafting successful";
+"Total of %@ crafting failed" = "Total of %@ crafting failed";
+"Time Played This Generation: %@" = "Time Played This Generation: %@";
+"Total Time Played: %@" = "Total Time Played: %@";
+
+//==========================================================================================================
+//StatsView
+"%@/%@ Completed" = "%@/%@ Completed";
+
+//==========================================================================================================
+//TipsVC
+"Tip Tablets are historical texts written by the wise crafters of the past." = "Tip Tablets are historical texts written by the wise crafters of the past.";
+
+//==========================================================================================================
+//TipsView
+"Collected Tips" = "Collected Tips";
+"Author: ?????" = "Author: ?????";
+"Author: %@" = "Author: %@";
+
+//==========================================================================================================
+//IcloudVC
+"Generation: %@" = "Generation: %@";
+"%@ items crafted" = "%@ items crafted";
+"Empty slot" = "Empty slot";
+"Copy your local save to iCloud? This will overwrite your cloud save" = "Copy your local save to iCloud? This will overwrite your cloud save";
+"Save to iCloud complete!" = "Save to iCloud complete!";
+"Download the save from iCloud? This will overwrite your local save." = "Download the save from iCloud? This will overwrite your local save.";
+"Load from iCloud complete!" = "Load from iCloud complete!";
+"You don't have an iCloud save!" = "You don't have an iCloud save!";
+
+//==========================================================================================================
+//IcloudView
+"iCloud Sync" = "iCloud Sync";
+"Local" = "Local";
+"iCloud" = "iCloud";
+"Save to iCloud" = "Save to iCloud";
+"Load from iCloud" = "Load from iCloud";
+
+//==========================================================================================================
+//MainMenuVC
+"Welcome" = "Welcome";
+"Hello, dear player!" = "Hello, dear player!";
+"Thank you for buying this pretty dope game!" = "Thank you for buying this pretty dope game!";
+"Dawn of Crafting is being developed by two brothers from the depths of the internet." = "Dawn of Crafting is being developed by two brothers from the depths of the internet.";
+"We've been playing games for years and we never came across any decent games focused on the crafting mechanics, so we decided that it was up to us to craft it!" = "We've been playing games for years and we never came across any decent games focused on the crafting mechanics, so we decided that it was up to us to craft it!";
+"We hope you'll like our creation and feel free to reach out to us about bugs, features or random chats about games you've played." = "We hope you'll like our creation and feel free to reach out to us about bugs, features or random chats about games you've played.";
+"Have fun and craft like a madman!" = "Have fun and craft like a madman!";
+"There is no save to delete." = "There is no save to delete.";
+"Are you sure you want to delete this save?" = "Are you sure you want to delete this save?";
+"All items and stats including generation items will be permanently lost, are you sure you want to delete this save?" = "All items and stats including generation items will be permanently lost, are you sure you want to delete this save?";
+"An error occured contact developers" = "An error occured contact developers";
+"Slot deleted." = "Slot deleted.";
+"Drag a slot to the empty box" = "Drag a slot to the empty box";
+
+//==========================================================================================================
+//MainMenuView
+"Start" = "Start";
+"Generation: %@" = "Generation: %@";
+"%@ items crafted" = "%@ items crafted";
+
+//==========================================================================================================
+//MenuVC
+"News" = "News";
+"Settings" = "Settings";
+"Contact" = "Contact";
+"Music" = "Music";
+"Activated" = "Activated";
+"Deactivated" = "Deactivated";
+"Sound" = "Sound";
+"Animations" = "Animations";
+"Hide GC Login" = "Hide GC Login";
+"Hide Game Center Notification" = "Hide Game Center Notification";
+"Load Text Fast" = "Load Text Fast";
+"Auto iCloud Save" = "Auto iCloud Save";
+"Save Every 15 Minutes" = "Save Every 15 Minutes";
+"Complete Transaction" = "Complete Transaction";
+"Save to iCloud" = "Save to iCloud";
+"Save complete!" = "Save complete!";
+"Save failed. You are playing in an old save. Go to main menu and click the cloud icon to load the latest save" = "Save failed. You are playing in an old save. Go to main menu and click the cloud icon to load the latest save";
+"Main Menu" = "Main Menu";
+"Message Us / Bug Report" = "Message Us / Bug Report";
+"Reddit" = "Reddit";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"Website" = "Website";
+"Dev Todo List" = "Dev Todo List";
+"Wiki" = "Wiki";
+"Send Data" = "Send Data";
+"We include your skills, inventory, village etc. within the report." = "We include your skills, inventory, village etc. within the report.";
+"Send" = "Send";
+"Thank you for your data. We will fix this as soon as possible." = "Thank you for your data. We will fix this as soon as possible.";
+"Force Crash" = "Force Crash";
+"This saves the game and forces a crash. This is helpful for us to debug some problems you've recently had." = "This saves the game and forces a crash. This is helpful for us to debug some problems you've recently had.";
+"Crash It" = "Crash It";
+"Music by Derek & Brandon Fiechter, check out their YouTube channel!" = "Music by Derek & Brandon Fiechter, check out their YouTube channel!";
+
+//==========================================================================================================
+//MenuView
+"Menu" = "Menu";
+
+//==========================================================================================================
+//MenuNews
+"Patch Log" = "Patch Log";
+"Support Dawn of Crafting & Earn Prizes!" = "Support Dawn of Crafting & Earn Prizes!";
+"Review On App Store" = "Review On App Store";
+"We really need more 5 star App Store reviews so Apple can show our game to more crafters. If you can please take a moment to leave a review." = "We really need more 5 star App Store reviews so Apple can show our game to more crafters. If you can please take a moment to leave a review.";
+"Social Media" = "Social Media";
+"Follow us and you'll be able to learn about all the cool updates & discuss strategies." = "Follow us and you'll be able to learn about all the cool updates & discuss strategies.";
+"Enter Email" = "Enter Email";
+"Don't worry, we'll only email for important stuff, like product launches. We hate spammers too. We'll email you max 3 times a year, pinky promise." = "Don't worry, we'll only email for important stuff, like product launches. We hate spammers too. We'll email you max 3 times a year, pinky promise.";
+"Share With A Friend" = "Share With A Friend";
+"Share with a friend who you think will also like this game." = "Share with a friend who you think will also like this game.";
+"Donation" = "Donation";
+"You can get these items inside the game in a lot of ways. But if you love Dawn of Crafting and want to support it more, this is a good way to do it. Thank you for playing." = "You can get these items inside the game in a lot of ways. But if you love Dawn of Crafting and want to support it more, this is a good way to do it. Thank you for playing.";
+ 
+//==========================================================================================================
+//MinionBagView
+"Minion Bag" = "Minion Bag";
+"Head" = "Head";
+"Chest" = "Chest";
+"Legs" = "Legs";
+"Feet" = "Feet";
+"Supply Bag" = "Supply Bag";
+"Gather Type" = "Gather Type";
+        
+//==========================================================================================================
+//PlayerBagView
+"Player Bag" = "Player Bag";
+"Apron" = "Apron";
+"Book" = "Book";
+"Glove" = "Glove";
+"Weapon" = "Weapon";
+
+//==========================================================================================================
+//ContainerVC
+"Take All" = "Take All";
+"Discard" = "Discard";
+"Remove all items in gather bag?" = "Remove all items in gather bag?";
+"Change container name" = "Change container name";
+
+//==========================================================================================================
+//ItemDescriptionVC
+"Should be built next to: " = "Should be built next to: ";
+"Can't be built next to: " = "Can't be built next to: ";
+"Are you sure you want to use this tablet to learn a new recipe?" = "Are you sure you want to use this tablet to learn a new recipe?";
+"No more recipes to open" = "No more recipes to open";
+"Use Tablet" = "Use Tablet";
+"Custom Name: %@" = "Custom Name: %@";
+"Slots: %@" = "Slots: %@";
+"* A historical text written by a wise crafter of the past." = "* A historical text written by a wise crafter of the past.";
+"Add to Collection" = "Add to Collection";
+"Heat: %@" = "Heat: %@";
+"Bait: %@" = "Bait: %@";
+"Energy: " = "Energy: ";
+"%@ skill required: %@" = "%@ skill required: %@"; //Gathering skill required: 50
+"%@ required: %@" = "%@ required: %@"; //Gathering required: 50
+
+//==========================================================================================================
+//PatchLogVC
+"Older Logs" = "Older Logs";
+"New Logs" = "New Logs";
+
+//==========================================================================================================
+//PatchLogView
+"Since You Were Gone" = "Since You Were Gone";
+"Show More" = "Show More";
+
+//==========================================================================================================
+//SkillDescriptionVC
+"Recipe" = "Recipe";
+"Success Chance" = "Success Chance";
+"Item" = "Item";
+"Skill Needed" = "Skill Needed";
+"Power" = "Power";
+
+//==========================================================================================================
+//SkillDescriptionView
+"Increase skill to unlock" = "Increase skill to unlock";
+"%@ skill needed to gather %@" = "%@ skill needed to gather %@";
+"%@ bait needed to fish %@" = "%@ bait needed to fish %@";
+"Not yet unlocked" = "Not yet unlocked";
+"%@ power needed to hunt %@" = "%@ power needed to hunt %@";
+"%@ to craft item" = "%@ to craft item";
+
+//==========================================================================================================
+//SkillsVC
+"Minion Skills" = "Minion Skills";
+"%@ Skills" = "%@ Skills";
+"You have not yet unlocked this skill" = "You have not yet unlocked this skill";
+"You have not yet activated this skill." = "You have not yet activated this skill.";
+
+//==========================================================================================================
+//AnimationSkillThreshold
+"Minion became a lot faster during %@ missions!" = "Minion became a lot faster during %@ missions!";
+"Unlocked new recipes for %@!" = "Unlocked new recipes for %@!";
+
+//==========================================================================================================
+//FoodExchangeClass
+"Total Energy: %@/%@" = "Total Energy: %@/%@";
+"Not enough energy!" = "Not enough energy!";
+
+//==========================================================================================================
+//TextSpace
+"Recipe:" = "Recipe:";
+"Enter name" = "Enter name";
+"Objective" = "Objective";
+"Select a different name." = "Select a different name.";
+
+//==========================================================================================================
+//VillageMoveHouseView
+"Select House" = "Select House";
+"%@ has joined your village." = "%@ has joined your village.";
+"No empty space, build more houses." = "No empty space, build more houses.";
+"%@\n Residence: %@" = "%@\n Residence: %@"; //House\n Residence: 4
+            
+//==========================================================================================================
+//VillageAssignWorkerView
+"Assign Worker" = "Assign Worker";
+"Couldn't assign worker, something went wrong." = "Couldn't assign worker, something went wrong.";
+"You don't have any available workers. Either remove workers from buildings or recruit more." = "You don't have any available workers. Either remove workers from buildings or recruit more.";
+"You don't have any eligable workers for this task. Try to find the right person for this position." = "You don't have any eligable workers for this task. Try to find the right person for this position.";
+
+//==========================================================================================================
+//SelectItemView
+"Select Tablet" = "Select Tablet";
+"You don't have any tablets.\nAdd tablets to your Archive building." = "You don't have any tablets.\nAdd tablets to your Archive building.";
+            
+//==========================================================================================================
+//NewInventionView
+"Tap To Break" = "Tap To Break";
+
+//==========================================================================================================
+//CrafterViewsRecipe
+"Minimum tool level %@ required." = "Minimum tool level %@ required.";
+"Are you sure you want to use your recipe part tablet to unlock the tool this recipe?" = "Are you sure you want to use your recipe part tablet to unlock the tool this recipe?";
+"Recipe part opened!" = "Recipe part opened!";
+"You don't have a Recipe Part Tablet to unlock the tool of this recipe." = "You don't have a Recipe Part Tablet to unlock the tool of this recipe.";
+"Are you sure you want to use your recipe part tablet to unlock the amount of this recipe item?" = "Are you sure you want to use your recipe part tablet to unlock the amount of this recipe item?";
+"You don't have a Recipe Part Tablet to unlock the amount of this item." = "You don't have a Recipe Part Tablet to unlock the amount of this item.";
+"Are you sure you want to use your recipe part tablet to unlock this item?" = "Are you sure you want to use your recipe part tablet to unlock this item?";
+"You don't have a Recipe Part Tablet to unlock this item." = "You don't have a Recipe Part Tablet to unlock this item.";
+"Get One" = "Get One";
+    
+//==========================================================================================================
+//TutorialTalk
+"Around 10,000 years ago..." = "Around 10,000 years ago...";
+"Hey.....                  \nHey, human....             \nAre you alive?   " = "Hey.....                  \nHey, human....             \nAre you alive?   ";
+"Wake Up" = "Wake Up";
+"Thank Adam & Eve you're alive!" = "Thank Adam & Eve you're alive!";
+"I'm Master Crafter Alf. What is your name?" = "I'm Master Crafter Alf. What is your name?";
+"%@, this place isn't safe. Come with me." = "%@, this place isn't safe. Come with me.";
+"This is where I live. We're safe..           \nFor now." = "This is where I live. We're safe..           \nFor now.";
+"What happened?" = "What happened?";
+"Sigh..              \nYou should eat and gain your strength. I'll tell you what happened later." = "Sigh..              \nYou should eat and gain your strength. I'll tell you what happened later.";
+"Cooked food made your Minion smarter." = "Cooked food made your Minion smarter.";
+"Minion can now understand types of items. Try showing Minion an item you want him to bring." = "Minion can now understand types of items. Try showing Minion an item you want him to bring.";
+"As his communication skill increases you will be able to tell him more types of items." = "As his communication skill increases you will be able to tell him more types of items.";
+
+//==========================================================================================================
+//MinionTalk
+//Minion just says random stupid stuff, stooopid
+"Blegh urumpada" = "Blegh urumpada";
+"Hurmpa luklu" = "Hurmpa luklu";
+"Kurunta hihihu" = "Kurunta hihihu";
+"Hunka muhkaka" = "Hunka muhkaka";
+"Blarg blraragga" = "Blarg blraragga";
+"ouy guly!" = "ouy guly!";
+"heayyee!" = "heayyee!";
+"Blurbla blefa" = "Blurbla blefa";
+"Gruni moteta" = "Gruni moteta";
+"Ektul moseru" = "Ektul moseru";
+"Frin mocha" = "Frin mocha";
+"Qulay nolya" = "Qulay nolya";
+"Ferru mal" = "Ferru mal";
+"Ebsni mig" = "Ebsni mig";
+"mel onur" = "mel onur";
+"miribi bubu" = "miribi bubu";
+
+//==========================================================================================================
+//AlfStories
+"The village had people from all types of races. We accepted anyone and everyone." = "The village had people from all types of races. We accepted anyone and everyone.";
+"Those who were oppressed, who had forbidden relationships etc. all came to live there in peace." = "Those who were oppressed, who had forbidden relationships etc. all came to live there in peace.";
+"It was the only place where one could truly be free. And to appreciate & contribute everyone pitched in as much as they could." = "It was the only place where one could truly be free. And to appreciate & contribute everyone pitched in as much as they could.";
+"Our mistake was naively believing others would just let us be." = "Our mistake was naively believing others would just let us be.";
+"It was all for Margira. The mother of my only child." = "It was all for Margira. The mother of my only child.";
+"She was my childhood crush but we couldn't get together due our circumstances." = "She was my childhood crush but we couldn't get together due our circumstances.";
+"After becoming a master crafter, with the help of my minion I took her away from her village." = "After becoming a master crafter, with the help of my minion I took her away from her village.";
+"You had a Minion?" = "You had a Minion?";
+"What happened to her?" = "What happened to her?";
+"Yeah, he was a go getter, he could go in to the depths of the world and bring me the rarest materials." = "Yeah, he was a go getter, he could go in to the depths of the world and bring me the rarest materials.";
+"He even found a female Minion. Nowadays it's pretty hard to come across any minion." = "He even found a female Minion. Nowadays it's pretty hard to come across any minion.";
+"Wow, tell me more!" = "Wow, tell me more!";
+"She died trying to save our son." = "She died trying to save our son.";
+"That day my whole life changed. I hope you'll never experience such a future." = "That day my whole life changed. I hope you'll never experience such a future.";
+"They were feeding in our lands and taking our food." = "They were feeding in our lands and taking our food.";
+"I tried to stop them with my Primitive Knife. That's how I got this scar." = "I tried to stop them with my Primitive Knife. That's how I got this scar.";
+"The reason is that all the other human species enslaved them and brought them to near extinction." = "The reason is that all the other human species enslaved them and brought them to near extinction.";
+"Even our kind is too harsh on them\n*Plays with Minions hair*\nSince Minions haven't evolved as smart as the rest of us, others tend to profit and discard them." = "Even our kind is too harsh on them\n*Plays with Minions hair*\nSince Minions haven't evolved as smart as the rest of us, others tend to profit and discard them.";
+"Now the 3 major human species are trying to enslave and destroy one another." = "Now the 3 major human species are trying to enslave and destroy one another.";
+"Why?" = "Why?";
+"Well %@, basically we are afraid of people who look different than we are." = "Well %@, basically we are afraid of people who look different than we are.";
+"And the best way to cope against unknown & fear is to eliminate the unknown." = "And the best way to cope against unknown & fear is to eliminate the unknown.";
+"Since diplomacy & getting to know another species might be dangerous, people tend to use force to ensure their safety." = "Since diplomacy & getting to know another species might be dangerous, people tend to use force to ensure their safety.";
+"Lets get back to crafting." = "Lets get back to crafting.";
+"Alright" = "Alright";
+"I didn't mention this, but I'm actually from the Land of Sand. We are in the Land of Stone." = "I didn't mention this, but I'm actually from the Land of Sand. We are in the Land of Stone.";
+"What was it like there?" = "What was it like there?";
+"It was full of sand so we had to mine our stones. Also food was really hard to come by." = "It was full of sand so we had to mine our stones. Also food was really hard to come by.";
+"The good thing was we could make all sorts of glass sculptures by burning sand so we had lots of artists." = "The good thing was we could make all sorts of glass sculptures by burning sand so we had lots of artists.";
+"What other types of lands are there?" = "What other types of lands are there?";
+"I don't think I have visited them all, but there is the land of forest, land of clay, land of tundra, land of savanna, land of grass." = "I don't think I have visited them all, but there is the land of forest, land of clay, land of tundra, land of savanna, land of grass.";
+"There are all sorts of people in all sorts of places. You can't even come to imagine." = "There are all sorts of people in all sorts of places. You can't even come to imagine.";
+"Lets get back to crafting." = "Lets get back to crafting.";
+"I haven't seen a Minion-Human bond such as yours in a long time." = "I haven't seen a Minion-Human bond such as yours in a long time.";
+"You two work really well together, you keep him fed, clothed & warm all the time." = "You two work really well together, you keep him fed, clothed & warm all the time.";
+"I hope your future will be a lot better than ours." = "I hope your future will be a lot better than ours.";
+"What happened to your Minion?" = "What happened to your Minion?";
+"*Alfs eyes fill up*\nThis is a story for another time." = "*Alfs eyes fill up*\nThis is a story for another time.";
+"All I can say is that it didn't end as well as I wanted it to." = "All I can say is that it didn't end as well as I wanted it to.";
+"*Dries up his eyes*\nLets keep working on the village." = "*Dries up his eyes*\nLets keep working on the village.";
+
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+//==========================================================================================================
+
