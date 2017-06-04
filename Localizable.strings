@@ -168,8 +168,11 @@
 
 "Coconut" = "Coconut"; "Basic food and crafting material." = "Basic food and crafting material.";
 "Stone" = "Stone"; "Basic tool." = "Basic tool.";
-"Blue Berry" = "Blue Berry"; "Common berry." = "Common berry.";
-"Red Berry" = "Red Berry";"Common berry." = "Common berry.";
+
+"Common berry." = "Common berry.";
+"Blue Berry" = "Blue Berry"; 
+"Red Berry" = "Red Berry
+
 "Stick" = "Stick"; "Basic crafting material." = "Basic crafting material.";
 "Vine" = "Vine"; "Crafting material, helps hold things together." = "Crafting material, helps hold things together.";
 "Walnut" = "Walnut"; "Basic food. Needs some preparation." = "Basic food. Needs some preparation.";
@@ -192,8 +195,10 @@
 
 //==========================================================================================================
 //FishableItems
-"Sardine" = "Sardine"; "Starter fish, does not require bait to catch." = "Starter fish, does not require bait to catch.";
-"Mackerel" = "Mackerel"; "Starter fish, does not require bait to catch." = "Starter fish, does not require bait to catch.";
+"Starter fish, does not require bait to catch." = "Starter fish, does not require bait to catch.";
+"Sardine" = "Sardine"; 
+"Mackerel" = "Mackerel"; 
+
 "Tuna" = "Tuna"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
 "Trout" = "Trout"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
 "Clown Fish" = "Clown Fish"; "Can be eaten whole, raw or cooked." = "Can be eaten whole, raw or cooked.";
